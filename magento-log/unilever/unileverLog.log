@@ -1,0 +1,934 @@
+[2022-06-29T09:55:00.198853+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - meta_description [] []
+[2022-06-29T09:55:00.199920+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - short_description [] []
+[2022-06-29T09:55:00.199958+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - short_description [] []
+[2022-06-29T09:55:00.201047+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - description [] []
+[2022-06-29T09:55:00.201088+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - description [] []
+[2022-06-29T09:55:00.202171+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - price_range [] []
+[2022-06-29T09:55:00.202209+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - price_range [] []
+[2022-06-29T09:55:00.202917+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - special_price [] []
+[2022-06-29T09:55:00.202952+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - special_price [] []
+[2022-06-29T09:55:15.665875+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CustomerLogin/Plugin/Resolver/GenerateCustomerTokenResolver.php
+ Line: 103
+ Module: Unilever-CustomerLogin
+ Message: Please enter the Valid Mobile Number! [] []
+[2022-06-29T09:55:15.827941+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - name [] []
+[2022-06-29T09:55:15.828078+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - name [] []
+[2022-06-29T09:55:15.829277+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - __typename [] []
+[2022-06-29T09:55:15.829321+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - __typename [] []
+[2022-06-29T09:55:16.823442+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - weight [] []
+[2022-06-29T09:55:16.823541+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - weight [] []
+[2022-06-29T09:55:16.824705+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - __typename [] []
+[2022-06-29T09:55:16.824759+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - __typename [] []
+[2022-06-29T09:55:16.825569+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - id [] []
+[2022-06-29T09:55:16.825607+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - id [] []
+[2022-06-29T09:55:16.826341+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - sku [] []
+[2022-06-29T09:55:16.826378+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - sku [] []
+[2022-06-29T09:55:16.827520+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_carousel_images_large [] []
+[2022-06-29T09:55:16.827560+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_carousel_images_large [] []
+[2022-06-29T09:55:16.828745+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_carousel_images_thumb [] []
+[2022-06-29T09:55:16.828785+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_carousel_images_thumb [] []
+[2022-06-29T09:55:16.830031+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_image_large [] []
+[2022-06-29T09:55:16.830084+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_image_large [] []
+[2022-06-29T09:55:16.831366+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_image_medium [] []
+[2022-06-29T09:55:16.831417+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_image_medium [] []
+[2022-06-29T09:55:16.832593+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_image_thumbnail [] []
+[2022-06-29T09:55:16.832633+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_image_thumbnail [] []
+[2022-06-29T09:55:16.833758+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_additional_images_large [] []
+[2022-06-29T09:55:16.833797+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_additional_images_large [] []
+[2022-06-29T09:55:16.834958+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_image_extra_small [] []
+[2022-06-29T09:55:16.835001+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_image_extra_small [] []
+[2022-06-29T09:55:16.836140+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_additional_video [] []
+[2022-06-29T09:55:16.836177+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_additional_video [] []
+[2022-06-29T09:55:16.837279+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_is_newlaunch [] []
+[2022-06-29T09:55:16.837317+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_is_newlaunch [] []
+[2022-06-29T09:55:16.838384+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_is_premium [] []
+[2022-06-29T09:55:16.838426+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_is_premium [] []
+[2022-06-29T09:55:16.839605+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_cotc [] []
+[2022-06-29T09:55:16.839644+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_cotc [] []
+[2022-06-29T09:55:16.842403+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 100
+ Module: Unilever-CatalogGraphQl
+ Message: attributearray - Array
+(
+    [246] => LS
+    [247] => SS
+)
+ [] []
+[2022-06-29T09:55:16.842447+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_key_sku [] []
+[2022-06-29T09:55:16.842472+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_key_sku [] []
+[2022-06-29T09:55:16.843590+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_size [] []
+[2022-06-29T09:55:16.843629+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_size [] []
+[2022-06-29T09:55:16.844831+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - name [] []
+[2022-06-29T09:55:16.844869+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - name [] []
+[2022-06-29T09:55:16.845858+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - url_key [] []
+[2022-06-29T09:55:16.845896+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - url_key [] []
+[2022-06-29T09:55:16.846919+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - meta_title [] []
+[2022-06-29T09:55:16.846956+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - meta_title [] []
+[2022-06-29T09:55:16.847955+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - meta_keyword [] []
+[2022-06-29T09:55:16.847992+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - meta_keyword [] []
+[2022-06-29T09:55:16.848857+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - meta_description [] []
+[2022-06-29T09:55:16.848892+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - meta_description [] []
+[2022-06-29T09:55:16.849742+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - short_description [] []
+[2022-06-29T09:55:16.849780+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - short_description [] []
+[2022-06-29T09:55:16.850887+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - description [] []
+[2022-06-29T09:55:16.850941+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - description [] []
+[2022-06-29T09:55:16.852343+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - price_range [] []
+[2022-06-29T09:55:16.852394+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - price_range [] []
+[2022-06-29T09:55:16.853252+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - special_price [] []
+[2022-06-29T09:55:16.853287+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - special_price [] []
+[2022-06-29T09:55:16.854362+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - weight [] []
+[2022-06-29T09:55:16.854399+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - weight [] []
+[2022-06-29T09:55:16.855701+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - __typename [] []
+[2022-06-29T09:55:16.855753+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - __typename [] []
+[2022-06-29T09:55:16.856578+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - id [] []
+[2022-06-29T09:55:16.856616+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - id [] []
+[2022-06-29T09:55:16.857393+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - sku [] []
+[2022-06-29T09:55:16.857438+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - sku [] []
+[2022-06-29T09:55:16.858545+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_carousel_images_large [] []
+[2022-06-29T09:55:16.858584+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_carousel_images_large [] []
+[2022-06-29T09:55:16.859662+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_carousel_images_thumb [] []
+[2022-06-29T09:55:16.859701+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_carousel_images_thumb [] []
+[2022-06-29T09:55:16.860775+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_image_large [] []
+[2022-06-29T09:55:16.860814+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_image_large [] []
+[2022-06-29T09:55:16.861878+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_image_medium [] []
+[2022-06-29T09:55:16.861926+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_image_medium [] []
+[2022-06-29T09:55:16.863031+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_image_thumbnail [] []
+[2022-06-29T09:55:16.863076+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_image_thumbnail [] []
+[2022-06-29T09:55:16.864137+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_additional_images_large [] []
+[2022-06-29T09:55:16.864175+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_additional_images_large [] []
+[2022-06-29T09:55:16.865286+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_image_extra_small [] []
+[2022-06-29T09:55:16.865325+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_image_extra_small [] []
+[2022-06-29T09:55:16.866420+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_additional_video [] []
+[2022-06-29T09:55:16.866457+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_additional_video [] []
+[2022-06-29T09:55:16.867521+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_is_newlaunch [] []
+[2022-06-29T09:55:16.867562+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_is_newlaunch [] []
+[2022-06-29T09:55:16.868638+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_is_premium [] []
+[2022-06-29T09:55:16.868676+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_is_premium [] []
+[2022-06-29T09:55:16.869740+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_cotc [] []
+[2022-06-29T09:55:16.869778+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_cotc [] []
+[2022-06-29T09:55:16.871492+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 100
+ Module: Unilever-CatalogGraphQl
+ Message: attributearray - Array
+(
+    [246] => LS
+)
+ [] []
+[2022-06-29T09:55:16.871535+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_key_sku [] []
+[2022-06-29T09:55:16.871559+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_key_sku [] []
+[2022-06-29T09:55:16.872800+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_size [] []
+[2022-06-29T09:55:16.872856+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_size [] []
+[2022-06-29T09:55:16.873924+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - name [] []
+[2022-06-29T09:55:16.873962+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - name [] []
+[2022-06-29T09:55:16.875125+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - url_key [] []
+[2022-06-29T09:55:16.875168+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - url_key [] []
+[2022-06-29T09:55:16.876233+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - meta_title [] []
+[2022-06-29T09:55:16.876270+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - meta_title [] []
+[2022-06-29T09:55:16.877387+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - meta_keyword [] []
+[2022-06-29T09:55:16.877425+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - meta_keyword [] []
+[2022-06-29T09:55:16.878474+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - meta_description [] []
+[2022-06-29T09:55:16.878512+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - meta_description [] []
+[2022-06-29T09:55:16.879550+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - short_description [] []
+[2022-06-29T09:55:16.879593+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - short_description [] []
+[2022-06-29T09:55:16.880675+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - description [] []
+[2022-06-29T09:55:16.880714+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - description [] []
+[2022-06-29T09:55:16.881872+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - price_range [] []
+[2022-06-29T09:55:16.881911+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - price_range [] []
+[2022-06-29T09:55:16.882657+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - special_price [] []
+[2022-06-29T09:55:16.882696+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - special_price [] []
+[2022-06-29T09:55:16.934418+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - weight [] []
+[2022-06-29T09:55:16.934508+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - weight [] []
+[2022-06-29T09:55:16.935791+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - __typename [] []
+[2022-06-29T09:55:16.935833+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - __typename [] []
+[2022-06-29T09:55:16.936628+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - id [] []
+[2022-06-29T09:55:16.936689+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - id [] []
+[2022-06-29T09:55:16.937634+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - sku [] []
+[2022-06-29T09:55:16.937696+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - sku [] []
+[2022-06-29T09:55:16.939110+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_carousel_images_large [] []
+[2022-06-29T09:55:16.939174+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_carousel_images_large [] []
+[2022-06-29T09:55:16.940412+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_carousel_images_thumb [] []
+[2022-06-29T09:55:16.940453+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_carousel_images_thumb [] []
+[2022-06-29T09:55:16.941545+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_image_large [] []
+[2022-06-29T09:55:16.941585+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_image_large [] []
+[2022-06-29T09:55:16.942641+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_image_medium [] []
+[2022-06-29T09:55:16.942684+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_image_medium [] []
+[2022-06-29T09:55:16.943746+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_image_thumbnail [] []
+[2022-06-29T09:55:16.943788+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_image_thumbnail [] []
+[2022-06-29T09:55:16.945090+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_additional_images_large [] []
+[2022-06-29T09:55:16.945144+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_additional_images_large [] []
+[2022-06-29T09:55:16.946452+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_image_extra_small [] []
+[2022-06-29T09:55:16.946504+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_image_extra_small [] []
+[2022-06-29T09:55:16.947812+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_additional_video [] []
+[2022-06-29T09:55:16.947863+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_additional_video [] []
+[2022-06-29T09:55:16.949215+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_is_newlaunch [] []
+[2022-06-29T09:55:16.949266+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_is_newlaunch [] []
+[2022-06-29T09:55:16.950593+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_is_premium [] []
+[2022-06-29T09:55:16.950648+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_is_premium [] []
+[2022-06-29T09:55:16.951902+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_cotc [] []
+[2022-06-29T09:55:16.951945+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_cotc [] []
+[2022-06-29T09:55:16.954526+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 100
+ Module: Unilever-CatalogGraphQl
+ Message: attributearray - Array
+(
+    [246] => LS
+    [247] => SS
+)
+ [] []
+[2022-06-29T09:55:16.954569+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_key_sku [] []
+[2022-06-29T09:55:16.954594+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_key_sku [] []
+[2022-06-29T09:55:16.955710+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_size [] []
+[2022-06-29T09:55:16.955749+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_size [] []
+[2022-06-29T09:55:16.956876+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - name [] []
+[2022-06-29T09:55:16.956915+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - name [] []
+[2022-06-29T09:55:16.958018+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - url_key [] []
+[2022-06-29T09:55:16.958059+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - url_key [] []
+[2022-06-29T09:55:16.959153+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - meta_title [] []
+[2022-06-29T09:55:16.959193+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - meta_title [] []
+[2022-06-29T09:55:16.960271+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - meta_keyword [] []
+[2022-06-29T09:55:16.960308+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - meta_keyword [] []
+[2022-06-29T09:55:16.961402+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - meta_description [] []
+[2022-06-29T09:55:16.961448+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - meta_description [] []
+[2022-06-29T09:55:16.962517+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - short_description [] []
+[2022-06-29T09:55:16.962556+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - short_description [] []
+[2022-06-29T09:55:16.963617+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - description [] []
+[2022-06-29T09:55:16.963656+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - description [] []
+[2022-06-29T09:55:16.964722+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - price_range [] []
+[2022-06-29T09:55:16.964760+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - price_range [] []
+[2022-06-29T09:55:16.965505+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - special_price [] []
+[2022-06-29T09:55:16.965543+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - special_price [] []
+[2022-06-29T09:55:16.966595+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - weight [] []
+[2022-06-29T09:55:16.966634+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - weight [] []
+[2022-06-29T09:55:16.967700+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - __typename [] []
+[2022-06-29T09:55:16.967739+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - __typename [] []
+[2022-06-29T09:55:16.968479+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - id [] []
+[2022-06-29T09:55:16.968517+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - id [] []
+[2022-06-29T09:55:16.969244+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - sku [] []
+[2022-06-29T09:55:16.969280+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - sku [] []
+[2022-06-29T09:55:16.970386+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_carousel_images_large [] []
+[2022-06-29T09:55:16.970424+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 81
+ Module: Unilever-CatalogGraphQl
+ Message: MultiSelectAttribute - unilever_carousel_images_large [] []
+[2022-06-29T09:55:16.971488+00:00] UnileverLog.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CatalogGraphQl/Plugin/MultiselectAttributePlugin.php
+ Line: 62
+ Module: Unilever-CatalogGraphQl
+ Message: MultiselectAttributePlugin - unilever_carousel_images_thumb [] []

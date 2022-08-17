@@ -1,0 +1,781 @@
+[2022-07-21T17:44:42.967922+00:00] report.ERROR: Cannot query field "IsLoyaltyEnabled" on type "StoreConfig".
+
+GraphQL (1:40)
+1: query fetchStoreConfigData{storeConfig{IsLoyaltyEnabled LoyaltyAgreementVersion LoyaltyConsetUpdatedOn isPolicyConsetEnabled isSmartListEnabled policyConsentAgreementVersion blackoutConsent{isEnable version startDate endDate title description __typename}IsOrderNoteEnabled __typename}}
+                                          ^
+ [] []
+[2022-07-21T17:45:11.052539+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:46:44.698749+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:46:54.212085+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:47:09.711197+00:00] report.ERROR: The CMS block with the "home-banner-1" ID doesn't exist.
+
+GraphQL (1:77)
+1: query cmsBlocks($identifiers:[String]!){cmsBlocks(identifiers:$identifiers){items{identifier title content __typename}__typename}}
+                                                                               ^
+ [] []
+[2022-07-21T17:47:09.759377+00:00] report.ERROR: Cannot query field "custom_attribute" on type "Customer".
+
+GraphQL (1:27)
+1: query getDetails{customer{custom_attribute{attribute value __typename}addresses{firstname lastname street city region{region_code region __typename}postcode country_code telephone __typename}smart_onboarding company_details{entity_id company_name company_email isNewVersionForPolicyConsent legal_name vat_tax_id telephone status reseller_id comment street city country_id region region_id postcode telephone customer_group_id customer_group_uid sales_representative_id super_user_id reject_reason rejected_at district sub_district address_type created_at updated_at isShowBlackoutPolicyConsent __typename}document_details{id company_id document_url document_type document_category_id document_category_name document_type_id document_url document_reject_message status registration_number created_at __typename}firstname lastname suffix email whatsapp_opt_in join_request_status mobile_number user_id product_user_group_id default_seller_id seller_details{seller_id __typename}created_at outlet_loyalty_details{user_id opt_in isNewVersionForLoyalty currentSlab isLoyaltyEnabled loyaltyEnabledFrom __typename}__typename}}
+                             ^
+ [] []
+[2022-07-21T17:47:13.551063+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:47:19.623616+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:47:19.927273+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:47:22.701443+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:48:17.182227+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:48:25.788849+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:48:37.094445+00:00] report.ERROR: The CMS block with the "home-banner-1" ID doesn't exist.
+
+GraphQL (1:77)
+1: query cmsBlocks($identifiers:[String]!){cmsBlocks(identifiers:$identifiers){items{identifier title content __typename}__typename}}
+                                                                               ^
+ [] []
+[2022-07-21T17:48:44.719975+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:48:46.439615+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:48:46.486518+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:48:47.521909+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:48:51.875329+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:48:52.218512+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:48:52.257074+00:00] report.ERROR: Cannot query field "custom_attribute" on type "Customer".
+
+GraphQL (1:27)
+1: query getDetails{customer{custom_attribute{attribute value __typename}addresses{firstname lastname street city region{region_code region __typename}postcode country_code telephone __typename}smart_onboarding company_details{entity_id company_name company_email isNewVersionForPolicyConsent legal_name vat_tax_id telephone status reseller_id comment street city country_id region region_id postcode telephone customer_group_id customer_group_uid sales_representative_id super_user_id reject_reason rejected_at district sub_district address_type created_at updated_at isShowBlackoutPolicyConsent __typename}document_details{id company_id document_url document_type document_category_id document_category_name document_type_id document_url document_reject_message status registration_number created_at __typename}firstname lastname suffix email whatsapp_opt_in join_request_status mobile_number user_id product_user_group_id default_seller_id seller_details{seller_id __typename}created_at outlet_loyalty_details{user_id opt_in isNewVersionForLoyalty currentSlab isLoyaltyEnabled loyaltyEnabledFrom __typename}__typename}}
+                             ^
+ [] []
+[2022-07-21T17:49:11.069236+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:50:05.937337+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:50:06.660854+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:50:06.743543+00:00] report.ERROR: Cannot query field "custom_attribute" on type "Customer".
+
+GraphQL (1:27)
+1: query getDetails{customer{custom_attribute{attribute value __typename}addresses{firstname lastname street city region{region_code region __typename}postcode country_code telephone __typename}smart_onboarding company_details{entity_id company_name company_email isNewVersionForPolicyConsent legal_name vat_tax_id telephone status reseller_id comment street city country_id region region_id postcode telephone customer_group_id customer_group_uid sales_representative_id super_user_id reject_reason rejected_at district sub_district address_type created_at updated_at isShowBlackoutPolicyConsent __typename}document_details{id company_id document_url document_type document_category_id document_category_name document_type_id document_url document_reject_message status registration_number created_at __typename}firstname lastname suffix email whatsapp_opt_in join_request_status mobile_number user_id product_user_group_id default_seller_id seller_details{seller_id __typename}created_at outlet_loyalty_details{user_id opt_in isNewVersionForLoyalty currentSlab isLoyaltyEnabled loyaltyEnabledFrom __typename}__typename}}
+                             ^
+ [] []
+[2022-07-21T17:50:07.557653+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:50:07.630799+00:00] report.ERROR: The CMS block with the "home-banner-1" ID doesn't exist.
+
+GraphQL (1:77)
+1: query cmsBlocks($identifiers:[String]!){cmsBlocks(identifiers:$identifiers){items{identifier title content __typename}__typename}}
+                                                                               ^
+ [] []
+[2022-07-21T17:50:08.967345+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:50:11.126716+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:50:13.544397+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:50:59.592320+00:00] report.ERROR: Cannot query field "custom_attribute" on type "Customer".
+
+GraphQL (1:27)
+1: query getDetails{customer{custom_attribute{attribute value __typename}addresses{firstname lastname street city region{region_code region __typename}postcode country_code telephone __typename}smart_onboarding company_details{entity_id company_name company_email isNewVersionForPolicyConsent legal_name vat_tax_id telephone status reseller_id comment street city country_id region region_id postcode telephone customer_group_id customer_group_uid sales_representative_id super_user_id reject_reason rejected_at district sub_district address_type created_at updated_at isShowBlackoutPolicyConsent __typename}document_details{id company_id document_url document_type document_category_id document_category_name document_type_id document_url document_reject_message status registration_number created_at __typename}firstname lastname suffix email whatsapp_opt_in join_request_status mobile_number user_id product_user_group_id default_seller_id seller_details{seller_id __typename}created_at outlet_loyalty_details{user_id opt_in isNewVersionForLoyalty currentSlab isLoyaltyEnabled loyaltyEnabledFrom __typename}__typename}}
+                             ^
+ [] []
+[2022-07-21T17:51:09.866259+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:51:09.937424+00:00] report.ERROR: The CMS block with the "home-banner-1" ID doesn't exist.
+
+GraphQL (1:77)
+1: query cmsBlocks($identifiers:[String]!){cmsBlocks(identifiers:$identifiers){items{identifier title content __typename}__typename}}
+                                                                               ^
+ [] []
+[2022-07-21T17:51:11.394826+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:51:11.989846+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:51:18.963205+00:00] report.ERROR: The CMS block with the "home-banner-1" ID doesn't exist.
+
+GraphQL (1:77)
+1: query cmsBlocks($identifiers:[String]!){cmsBlocks(identifiers:$identifiers){items{identifier title content __typename}__typename}}
+                                                                               ^
+ [] []
+[2022-07-21T17:51:23.170023+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:51:23.170117+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:51:24.071911+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:51:24.158434+00:00] report.ERROR: Cannot query field "custom_attribute" on type "Customer".
+
+GraphQL (1:27)
+1: query getDetails{customer{custom_attribute{attribute value __typename}addresses{firstname lastname street city region{region_code region __typename}postcode country_code telephone __typename}smart_onboarding company_details{entity_id company_name company_email isNewVersionForPolicyConsent legal_name vat_tax_id telephone status reseller_id comment street city country_id region region_id postcode telephone customer_group_id customer_group_uid sales_representative_id super_user_id reject_reason rejected_at district sub_district address_type created_at updated_at isShowBlackoutPolicyConsent __typename}document_details{id company_id document_url document_type document_category_id document_category_name document_type_id document_url document_reject_message status registration_number created_at __typename}firstname lastname suffix email whatsapp_opt_in join_request_status mobile_number user_id product_user_group_id default_seller_id seller_details{seller_id __typename}created_at outlet_loyalty_details{user_id opt_in isNewVersionForLoyalty currentSlab isLoyaltyEnabled loyaltyEnabledFrom __typename}__typename}}
+                             ^
+ [] []
+[2022-07-21T17:51:28.376936+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:51:42.246185+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:53:12.242862+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:53:42.258409+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:54:01.278323+00:00] report.ERROR: Cannot query field "custom_attribute" on type "Customer".
+
+GraphQL (1:27)
+1: query getDetails{customer{custom_attribute{attribute value __typename}addresses{firstname lastname street city region{region_code region __typename}postcode country_code telephone __typename}smart_onboarding company_details{entity_id company_name company_email isNewVersionForPolicyConsent legal_name vat_tax_id telephone status reseller_id comment street city country_id region region_id postcode telephone customer_group_id customer_group_uid sales_representative_id super_user_id reject_reason rejected_at district sub_district address_type created_at updated_at isShowBlackoutPolicyConsent __typename}document_details{id company_id document_url document_type document_category_id document_category_name document_type_id document_url document_reject_message status registration_number created_at __typename}firstname lastname suffix email whatsapp_opt_in join_request_status mobile_number user_id product_user_group_id default_seller_id seller_details{seller_id __typename}created_at outlet_loyalty_details{user_id opt_in isNewVersionForLoyalty currentSlab isLoyaltyEnabled loyaltyEnabledFrom __typename}__typename}}
+                             ^
+ [] []
+[2022-07-21T17:54:06.526341+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:54:09.161112+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:54:09.238676+00:00] report.ERROR: Cannot query field "IsLoyaltyEnabled" on type "StoreConfig".
+
+GraphQL (1:40)
+1: query fetchStoreConfigData{storeConfig{IsLoyaltyEnabled LoyaltyAgreementVersion LoyaltyConsetUpdatedOn isPolicyConsetEnabled isSmartListEnabled policyConsentAgreementVersion blackoutConsent{isEnable version startDate endDate title description __typename}IsOrderNoteEnabled __typename}}
+                                          ^
+ [] []
+[2022-07-21T17:55:13.572279+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:55:43.590829+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:56:13.581717+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:56:14.737834+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:56:42.257879+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:59:09.424931+00:00] report.ERROR: Cannot query field "custom_attribute" on type "Customer".
+
+GraphQL (1:27)
+1: query getDetails{customer{custom_attribute{attribute value __typename}addresses{firstname lastname street city region{region_code region __typename}postcode country_code telephone __typename}smart_onboarding company_details{entity_id company_name company_email isNewVersionForPolicyConsent legal_name vat_tax_id telephone status reseller_id comment street city country_id region region_id postcode telephone customer_group_id customer_group_uid sales_representative_id super_user_id reject_reason rejected_at district sub_district address_type created_at updated_at isShowBlackoutPolicyConsent __typename}document_details{id company_id document_url document_type document_category_id document_category_name document_type_id document_url document_reject_message status registration_number created_at __typename}firstname lastname suffix email whatsapp_opt_in join_request_status mobile_number user_id product_user_group_id default_seller_id seller_details{seller_id __typename}created_at outlet_loyalty_details{user_id opt_in isNewVersionForLoyalty currentSlab isLoyaltyEnabled loyaltyEnabledFrom __typename}__typename}}
+                             ^
+ [] []
+[2022-07-21T17:59:09.477694+00:00] report.ERROR: The CMS block with the "home-banner-1" ID doesn't exist.
+
+GraphQL (1:77)
+1: query cmsBlocks($identifiers:[String]!){cmsBlocks(identifiers:$identifiers){items{identifier title content __typename}__typename}}
+                                                                               ^
+ [] []
+[2022-07-21T17:59:14.745502+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:59:18.996724+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:59:19.056544+00:00] report.ERROR: Cannot query field "IsLoyaltyEnabled" on type "StoreConfig".
+
+GraphQL (1:40)
+1: query fetchStoreConfigData{storeConfig{IsLoyaltyEnabled LoyaltyAgreementVersion LoyaltyConsetUpdatedOn isPolicyConsetEnabled isSmartListEnabled policyConsentAgreementVersion blackoutConsent{isEnable version startDate endDate title description __typename}IsOrderNoteEnabled __typename}}
+                                          ^
+ [] []
+[2022-07-21T17:59:21.371876+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:59:23.178441+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:59:25.470462+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:59:27.802812+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T17:59:44.772482+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T18:01:14.754207+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T18:03:13.598793+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T18:04:43.592145+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T18:07:11.126923+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T18:07:11.317026+00:00] report.ERROR: Cannot query field "IsLoyaltyEnabled" on type "StoreConfig".
+
+GraphQL (1:40)
+1: query fetchStoreConfigData{storeConfig{IsLoyaltyEnabled LoyaltyAgreementVersion LoyaltyConsetUpdatedOn isPolicyConsetEnabled isSmartListEnabled policyConsentAgreementVersion blackoutConsent{isEnable version startDate endDate title description __typename}IsOrderNoteEnabled __typename}}
+                                          ^
+ [] []
+[2022-07-21T18:07:12.827138+00:00] report.ERROR: Cannot query field "custom_attribute" on type "Customer".
+
+GraphQL (1:27)
+1: query getDetails{customer{custom_attribute{attribute value __typename}addresses{firstname lastname street city region{region_code region __typename}postcode country_code telephone __typename}smart_onboarding company_details{entity_id company_name company_email isNewVersionForPolicyConsent legal_name vat_tax_id telephone status reseller_id comment street city country_id region region_id postcode telephone customer_group_id customer_group_uid sales_representative_id super_user_id reject_reason rejected_at district sub_district address_type created_at updated_at isShowBlackoutPolicyConsent __typename}document_details{id company_id document_url document_type document_category_id document_category_name document_type_id document_url document_reject_message status registration_number created_at __typename}firstname lastname suffix email whatsapp_opt_in join_request_status mobile_number user_id product_user_group_id default_seller_id seller_details{seller_id __typename}created_at outlet_loyalty_details{user_id opt_in isNewVersionForLoyalty currentSlab isLoyaltyEnabled loyaltyEnabledFrom __typename}__typename}}
+                             ^
+ [] []
+[2022-07-21T18:07:13.020593+00:00] report.ERROR: Cannot query field "IsLoyaltyEnabled" on type "StoreConfig".
+
+GraphQL (1:40)
+1: query fetchStoreConfigData{storeConfig{IsLoyaltyEnabled LoyaltyAgreementVersion LoyaltyConsetUpdatedOn isPolicyConsetEnabled isSmartListEnabled policyConsentAgreementVersion blackoutConsent{isEnable version startDate endDate title description __typename}IsOrderNoteEnabled __typename}}
+                                          ^
+ [] []
+[2022-07-21T18:07:16.110078+00:00] report.ERROR: Cannot query field "custom_attribute" on type "Customer".
+
+GraphQL (1:27)
+1: query getDetails{customer{custom_attribute{attribute value __typename}addresses{firstname lastname street city region{region_code region __typename}postcode country_code telephone __typename}smart_onboarding company_details{entity_id company_name company_email isNewVersionForPolicyConsent legal_name vat_tax_id telephone status reseller_id comment street city country_id region region_id postcode telephone customer_group_id customer_group_uid sales_representative_id super_user_id reject_reason rejected_at district sub_district address_type created_at updated_at isShowBlackoutPolicyConsent __typename}document_details{id company_id document_url document_type document_category_id document_category_name document_type_id document_url document_reject_message status registration_number created_at __typename}firstname lastname suffix email whatsapp_opt_in join_request_status mobile_number user_id product_user_group_id default_seller_id seller_details{seller_id __typename}created_at outlet_loyalty_details{user_id opt_in isNewVersionForLoyalty currentSlab isLoyaltyEnabled loyaltyEnabledFrom __typename}__typename}}
+                             ^
+ [] []
+[2022-07-21T18:07:24.968221+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T18:07:57.873648+00:00] report.ERROR: Cannot query field "custom_attribute" on type "Customer".
+
+GraphQL (1:27)
+1: query getDetails{customer{custom_attribute{attribute value __typename}addresses{firstname lastname street city region{region_code region __typename}postcode country_code telephone __typename}smart_onboarding company_details{entity_id company_name company_email isNewVersionForPolicyConsent legal_name vat_tax_id telephone status reseller_id comment street city country_id region region_id postcode telephone customer_group_id customer_group_uid sales_representative_id super_user_id reject_reason rejected_at district sub_district address_type created_at updated_at isShowBlackoutPolicyConsent __typename}document_details{id company_id document_url document_type document_category_id document_category_name document_type_id document_url document_reject_message status registration_number created_at __typename}firstname lastname suffix email whatsapp_opt_in join_request_status mobile_number user_id product_user_group_id default_seller_id seller_details{seller_id __typename}created_at outlet_loyalty_details{user_id opt_in isNewVersionForLoyalty currentSlab isLoyaltyEnabled loyaltyEnabledFrom __typename}__typename}}
+                             ^
+ [] []
+[2022-07-21T18:07:57.936776+00:00] report.ERROR: Cannot query field "IsLoyaltyEnabled" on type "StoreConfig".
+
+GraphQL (1:40)
+1: query fetchStoreConfigData{storeConfig{IsLoyaltyEnabled LoyaltyAgreementVersion LoyaltyConsetUpdatedOn isPolicyConsetEnabled isSmartListEnabled policyConsentAgreementVersion blackoutConsent{isEnable version startDate endDate title description __typename}IsOrderNoteEnabled __typename}}
+                                          ^
+ [] []
+[2022-07-21T18:08:05.245300+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T18:08:12.478280+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T18:08:41.329757+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T18:08:47.269089+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T18:08:48.270535+00:00] report.ERROR: Cannot query field "IsLoyaltyEnabled" on type "StoreConfig".
+
+GraphQL (1:40)
+1: query fetchStoreConfigData{storeConfig{IsLoyaltyEnabled LoyaltyAgreementVersion LoyaltyConsetUpdatedOn isPolicyConsetEnabled isSmartListEnabled policyConsentAgreementVersion blackoutConsent{isEnable version startDate endDate title description __typename}IsOrderNoteEnabled __typename}}
+                                          ^
+ [] []
+[2022-07-21T18:08:52.912743+00:00] report.ERROR: Cannot query field "custom_attribute" on type "Customer".
+
+GraphQL (1:27)
+1: query getDetails{customer{custom_attribute{attribute value __typename}addresses{firstname lastname street city region{region_code region __typename}postcode country_code telephone __typename}smart_onboarding company_details{entity_id company_name company_email isNewVersionForPolicyConsent legal_name vat_tax_id telephone status reseller_id comment street city country_id region region_id postcode telephone customer_group_id customer_group_uid sales_representative_id super_user_id reject_reason rejected_at district sub_district address_type created_at updated_at isShowBlackoutPolicyConsent __typename}document_details{id company_id document_url document_type document_category_id document_category_name document_type_id document_url document_reject_message status registration_number created_at __typename}firstname lastname suffix email whatsapp_opt_in join_request_status mobile_number user_id product_user_group_id default_seller_id seller_details{seller_id __typename}created_at outlet_loyalty_details{user_id opt_in isNewVersionForLoyalty currentSlab isLoyaltyEnabled loyaltyEnabledFrom __typename}__typename}}
+                             ^
+ [] []
+[2022-07-21T18:08:59.670197+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T18:09:14.981264+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T18:09:35.669343+00:00] report.ERROR: Cannot query field "custom_attribute" on type "Customer".
+
+GraphQL (1:27)
+1: query getDetails{customer{custom_attribute{attribute value __typename}addresses{firstname lastname street city region{region_code region __typename}postcode country_code telephone __typename}smart_onboarding company_details{entity_id company_name company_email isNewVersionForPolicyConsent legal_name vat_tax_id telephone status reseller_id comment street city country_id region region_id postcode telephone customer_group_id customer_group_uid sales_representative_id super_user_id reject_reason rejected_at district sub_district address_type created_at updated_at isShowBlackoutPolicyConsent __typename}document_details{id company_id document_url document_type document_category_id document_category_name document_type_id document_url document_reject_message status registration_number created_at __typename}firstname lastname suffix email whatsapp_opt_in join_request_status mobile_number user_id product_user_group_id default_seller_id seller_details{seller_id __typename}created_at outlet_loyalty_details{user_id opt_in isNewVersionForLoyalty currentSlab isLoyaltyEnabled loyaltyEnabledFrom __typename}__typename}}
+                             ^
+ [] []
+[2022-07-21T18:09:45.764676+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T18:09:46.309748+00:00] report.ERROR: Cannot query field "IsLoyaltyEnabled" on type "StoreConfig".
+
+GraphQL (1:40)
+1: query fetchStoreConfigData{storeConfig{IsLoyaltyEnabled LoyaltyAgreementVersion LoyaltyConsetUpdatedOn isPolicyConsetEnabled isSmartListEnabled policyConsentAgreementVersion blackoutConsent{isEnable version startDate endDate title description __typename}IsOrderNoteEnabled __typename}}
+                                          ^
+ [] []
+[2022-07-21T18:09:46.902662+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T18:10:16.099036+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T18:10:41.140295+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T18:11:05.889486+00:00] report.CRITICAL: Magento\Framework\Exception\NoSuchEntityException: 没有任何具有% fieldName = % fieldValue的实体 in /var/www/html/magento/vendor/magento/framework/Exception/NoSuchEntityException.php:50
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-customer/Model/CustomerRegistry.php(84): Magento\Framework\Exception\NoSuchEntityException::singleField()
+#1 /var/www/html/magento/vendor/magento/module-customer/Model/ResourceModel/CustomerRepository.php(385): Magento\Customer\Model\CustomerRegistry->retrieve()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Customer\Model\ResourceModel\CustomerRepository->getById()
+#3 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->___callParent()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->Magento\Framework\Interception\{closure}()
+#5 /var/www/html/magento/generated/code/Magento/Customer/Model/ResourceModel/CustomerRepository/Interceptor.php(41): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->___callPlugins()
+#6 /var/www/html/magento/vendor/magento/module-customer-graph-ql/Model/Context/AddUserInfoToContext.php(79): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->getById()
+#7 /var/www/html/magento/vendor/magento/module-graph-ql/Model/Query/ContextFactory.php(71): Magento\CustomerGraphQl\Model\Context\AddUserInfoToContext->execute()
+#8 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(194): Magento\GraphQl\Model\Query\ContextFactory->create()
+#9 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#10 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#11 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(71): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#12 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#13 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#14 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#15 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#16 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#17 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#18 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#19 {main}
+
+Next Exception: Report ID: graph-ql-62d996b9d90be; Message: 没有任何具有% fieldName = % fieldValue的实体 in /var/www/html/magento/vendor/magento/framework/GraphQl/Exception/ExceptionFormatter.php:64
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(199): Magento\Framework\GraphQl\Exception\ExceptionFormatter->create()
+#1 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#3 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(71): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#6 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#7 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#8 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#9 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#10 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#11 {main} [] []
+[2022-07-21T18:11:11.041909+00:00] report.CRITICAL: Magento\Framework\Exception\NoSuchEntityException: 没有任何具有% fieldName = % fieldValue的实体 in /var/www/html/magento/vendor/magento/framework/Exception/NoSuchEntityException.php:50
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-customer/Model/CustomerRegistry.php(84): Magento\Framework\Exception\NoSuchEntityException::singleField()
+#1 /var/www/html/magento/vendor/magento/module-customer/Model/ResourceModel/CustomerRepository.php(385): Magento\Customer\Model\CustomerRegistry->retrieve()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Customer\Model\ResourceModel\CustomerRepository->getById()
+#3 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->___callParent()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->Magento\Framework\Interception\{closure}()
+#5 /var/www/html/magento/generated/code/Magento/Customer/Model/ResourceModel/CustomerRepository/Interceptor.php(41): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->___callPlugins()
+#6 /var/www/html/magento/vendor/magento/module-customer-graph-ql/Model/Context/AddUserInfoToContext.php(79): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->getById()
+#7 /var/www/html/magento/vendor/magento/module-graph-ql/Model/Query/ContextFactory.php(71): Magento\CustomerGraphQl\Model\Context\AddUserInfoToContext->execute()
+#8 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(194): Magento\GraphQl\Model\Query\ContextFactory->create()
+#9 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#10 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#11 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(71): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#12 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#13 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#14 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#15 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#16 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#17 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#18 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#19 {main}
+
+Next Exception: Report ID: graph-ql-62d996bf0a1ec; Message: 没有任何具有% fieldName = % fieldValue的实体 in /var/www/html/magento/vendor/magento/framework/GraphQl/Exception/ExceptionFormatter.php:64
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(199): Magento\Framework\GraphQl\Exception\ExceptionFormatter->create()
+#1 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#3 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(71): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#6 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#7 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#8 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#9 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#10 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#11 {main} [] []
+[2022-07-21T18:11:11.141834+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T18:11:21.642796+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T18:11:21.683104+00:00] report.CRITICAL: Magento\Framework\Exception\NoSuchEntityException: 没有任何具有% fieldName = % fieldValue的实体 in /var/www/html/magento/vendor/magento/framework/Exception/NoSuchEntityException.php:50
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-customer/Model/CustomerRegistry.php(84): Magento\Framework\Exception\NoSuchEntityException::singleField()
+#1 /var/www/html/magento/vendor/magento/module-customer/Model/ResourceModel/CustomerRepository.php(385): Magento\Customer\Model\CustomerRegistry->retrieve()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Customer\Model\ResourceModel\CustomerRepository->getById()
+#3 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->___callParent()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->Magento\Framework\Interception\{closure}()
+#5 /var/www/html/magento/generated/code/Magento/Customer/Model/ResourceModel/CustomerRepository/Interceptor.php(41): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->___callPlugins()
+#6 /var/www/html/magento/vendor/magento/module-customer-graph-ql/Model/Context/AddUserInfoToContext.php(79): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->getById()
+#7 /var/www/html/magento/vendor/magento/module-graph-ql/Model/Query/ContextFactory.php(71): Magento\CustomerGraphQl\Model\Context\AddUserInfoToContext->execute()
+#8 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(194): Magento\GraphQl\Model\Query\ContextFactory->create()
+#9 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#10 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#11 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(71): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#12 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#13 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#14 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#15 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#16 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#17 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#18 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#19 {main}
+
+Next Exception: Report ID: graph-ql-62d996c9a6c3c; Message: 没有任何具有% fieldName = % fieldValue的实体 in /var/www/html/magento/vendor/magento/framework/GraphQl/Exception/ExceptionFormatter.php:64
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(199): Magento\Framework\GraphQl\Exception\ExceptionFormatter->create()
+#1 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#3 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(71): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#6 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#7 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#8 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#9 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#10 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#11 {main} [] []
+[2022-07-21T18:11:25.306957+00:00] report.CRITICAL: Magento\Framework\Exception\NoSuchEntityException: 没有任何具有% fieldName = % fieldValue的实体 in /var/www/html/magento/vendor/magento/framework/Exception/NoSuchEntityException.php:50
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-customer/Model/CustomerRegistry.php(84): Magento\Framework\Exception\NoSuchEntityException::singleField()
+#1 /var/www/html/magento/vendor/magento/module-customer/Model/ResourceModel/CustomerRepository.php(385): Magento\Customer\Model\CustomerRegistry->retrieve()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Customer\Model\ResourceModel\CustomerRepository->getById()
+#3 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->___callParent()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->Magento\Framework\Interception\{closure}()
+#5 /var/www/html/magento/generated/code/Magento/Customer/Model/ResourceModel/CustomerRepository/Interceptor.php(41): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->___callPlugins()
+#6 /var/www/html/magento/vendor/magento/module-customer-graph-ql/Model/Context/AddUserInfoToContext.php(79): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->getById()
+#7 /var/www/html/magento/vendor/magento/module-graph-ql/Model/Query/ContextFactory.php(71): Magento\CustomerGraphQl\Model\Context\AddUserInfoToContext->execute()
+#8 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(194): Magento\GraphQl\Model\Query\ContextFactory->create()
+#9 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#10 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#11 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(71): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#12 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#13 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#14 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#15 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#16 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#17 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#18 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#19 {main}
+
+Next Exception: Report ID: graph-ql-62d996cd4ad3c; Message: 没有任何具有% fieldName = % fieldValue的实体 in /var/www/html/magento/vendor/magento/framework/GraphQl/Exception/ExceptionFormatter.php:64
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(199): Magento\Framework\GraphQl\Exception\ExceptionFormatter->create()
+#1 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#3 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(71): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#6 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#7 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#8 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#9 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#10 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#11 {main} [] []
+[2022-07-21T18:11:26.268472+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T18:11:26.305794+00:00] report.CRITICAL: Magento\Framework\Exception\NoSuchEntityException: 没有任何具有% fieldName = % fieldValue的实体 in /var/www/html/magento/vendor/magento/framework/Exception/NoSuchEntityException.php:50
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-customer/Model/CustomerRegistry.php(84): Magento\Framework\Exception\NoSuchEntityException::singleField()
+#1 /var/www/html/magento/vendor/magento/module-customer/Model/ResourceModel/CustomerRepository.php(385): Magento\Customer\Model\CustomerRegistry->retrieve()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Customer\Model\ResourceModel\CustomerRepository->getById()
+#3 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->___callParent()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->Magento\Framework\Interception\{closure}()
+#5 /var/www/html/magento/generated/code/Magento/Customer/Model/ResourceModel/CustomerRepository/Interceptor.php(41): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->___callPlugins()
+#6 /var/www/html/magento/vendor/magento/module-customer-graph-ql/Model/Context/AddUserInfoToContext.php(79): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->getById()
+#7 /var/www/html/magento/vendor/magento/module-graph-ql/Model/Query/ContextFactory.php(71): Magento\CustomerGraphQl\Model\Context\AddUserInfoToContext->execute()
+#8 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(194): Magento\GraphQl\Model\Query\ContextFactory->create()
+#9 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#10 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#11 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(71): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#12 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#13 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#14 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#15 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#16 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#17 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#18 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#19 {main}
+
+Next Exception: Report ID: graph-ql-62d996ce4aa60; Message: 没有任何具有% fieldName = % fieldValue的实体 in /var/www/html/magento/vendor/magento/framework/GraphQl/Exception/ExceptionFormatter.php:64
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(199): Magento\Framework\GraphQl\Exception\ExceptionFormatter->create()
+#1 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#3 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(71): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#6 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#7 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#8 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#9 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#10 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#11 {main} [] []
+[2022-07-21T18:11:27.000310+00:00] report.CRITICAL: Magento\Framework\Exception\NoSuchEntityException: 没有任何具有% fieldName = % fieldValue的实体 in /var/www/html/magento/vendor/magento/framework/Exception/NoSuchEntityException.php:50
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-customer/Model/CustomerRegistry.php(84): Magento\Framework\Exception\NoSuchEntityException::singleField()
+#1 /var/www/html/magento/vendor/magento/module-customer/Model/ResourceModel/CustomerRepository.php(385): Magento\Customer\Model\CustomerRegistry->retrieve()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Customer\Model\ResourceModel\CustomerRepository->getById()
+#3 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->___callParent()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->Magento\Framework\Interception\{closure}()
+#5 /var/www/html/magento/generated/code/Magento/Customer/Model/ResourceModel/CustomerRepository/Interceptor.php(41): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->___callPlugins()
+#6 /var/www/html/magento/vendor/magento/module-customer-graph-ql/Model/Context/AddUserInfoToContext.php(79): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->getById()
+#7 /var/www/html/magento/vendor/magento/module-graph-ql/Model/Query/ContextFactory.php(71): Magento\CustomerGraphQl\Model\Context\AddUserInfoToContext->execute()
+#8 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(194): Magento\GraphQl\Model\Query\ContextFactory->create()
+#9 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#10 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#11 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(71): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#12 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#13 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#14 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#15 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#16 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#17 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#18 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#19 {main}
+
+Next Exception: Report ID: graph-ql-62d996cef4185; Message: 没有任何具有% fieldName = % fieldValue的实体 in /var/www/html/magento/vendor/magento/framework/GraphQl/Exception/ExceptionFormatter.php:64
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(199): Magento\Framework\GraphQl\Exception\ExceptionFormatter->create()
+#1 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#3 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(71): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#6 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#7 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#8 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#9 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#10 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#11 {main} [] []
+[2022-07-21T18:11:28.566743+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T18:11:28.598583+00:00] report.CRITICAL: Magento\Framework\Exception\NoSuchEntityException: 没有任何具有% fieldName = % fieldValue的实体 in /var/www/html/magento/vendor/magento/framework/Exception/NoSuchEntityException.php:50
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-customer/Model/CustomerRegistry.php(84): Magento\Framework\Exception\NoSuchEntityException::singleField()
+#1 /var/www/html/magento/vendor/magento/module-customer/Model/ResourceModel/CustomerRepository.php(385): Magento\Customer\Model\CustomerRegistry->retrieve()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Customer\Model\ResourceModel\CustomerRepository->getById()
+#3 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->___callParent()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->Magento\Framework\Interception\{closure}()
+#5 /var/www/html/magento/generated/code/Magento/Customer/Model/ResourceModel/CustomerRepository/Interceptor.php(41): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->___callPlugins()
+#6 /var/www/html/magento/vendor/magento/module-customer-graph-ql/Model/Context/AddUserInfoToContext.php(79): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->getById()
+#7 /var/www/html/magento/vendor/magento/module-graph-ql/Model/Query/ContextFactory.php(71): Magento\CustomerGraphQl\Model\Context\AddUserInfoToContext->execute()
+#8 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(194): Magento\GraphQl\Model\Query\ContextFactory->create()
+#9 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#10 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#11 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(71): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#12 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#13 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#14 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#15 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#16 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#17 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#18 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#19 {main}
+
+Next Exception: Report ID: graph-ql-62d996d092216; Message: 没有任何具有% fieldName = % fieldValue的实体 in /var/www/html/magento/vendor/magento/framework/GraphQl/Exception/ExceptionFormatter.php:64
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(199): Magento\Framework\GraphQl\Exception\ExceptionFormatter->create()
+#1 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#3 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(71): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#6 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#7 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#8 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#9 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#10 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#11 {main} [] []
+[2022-07-21T18:11:29.469736+00:00] report.CRITICAL: Magento\Framework\Exception\NoSuchEntityException: 没有任何具有% fieldName = % fieldValue的实体 in /var/www/html/magento/vendor/magento/framework/Exception/NoSuchEntityException.php:50
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-customer/Model/CustomerRegistry.php(84): Magento\Framework\Exception\NoSuchEntityException::singleField()
+#1 /var/www/html/magento/vendor/magento/module-customer/Model/ResourceModel/CustomerRepository.php(385): Magento\Customer\Model\CustomerRegistry->retrieve()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Customer\Model\ResourceModel\CustomerRepository->getById()
+#3 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->___callParent()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->Magento\Framework\Interception\{closure}()
+#5 /var/www/html/magento/generated/code/Magento/Customer/Model/ResourceModel/CustomerRepository/Interceptor.php(41): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->___callPlugins()
+#6 /var/www/html/magento/vendor/magento/module-customer-graph-ql/Model/Context/AddUserInfoToContext.php(79): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->getById()
+#7 /var/www/html/magento/vendor/magento/module-graph-ql/Model/Query/ContextFactory.php(71): Magento\CustomerGraphQl\Model\Context\AddUserInfoToContext->execute()
+#8 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(194): Magento\GraphQl\Model\Query\ContextFactory->create()
+#9 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#10 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#11 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(71): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#12 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#13 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#14 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#15 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#16 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#17 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#18 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#19 {main}
+
+Next Exception: Report ID: graph-ql-62d996d17291b; Message: 没有任何具有% fieldName = % fieldValue的实体 in /var/www/html/magento/vendor/magento/framework/GraphQl/Exception/ExceptionFormatter.php:64
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(199): Magento\Framework\GraphQl\Exception\ExceptionFormatter->create()
+#1 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#3 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(71): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#6 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#7 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#8 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#9 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#10 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#11 {main} [] []
+[2022-07-21T18:11:30.509923+00:00] report.CRITICAL: Magento\Framework\Exception\NoSuchEntityException: 没有任何具有% fieldName = % fieldValue的实体 in /var/www/html/magento/vendor/magento/framework/Exception/NoSuchEntityException.php:50
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-customer/Model/CustomerRegistry.php(84): Magento\Framework\Exception\NoSuchEntityException::singleField()
+#1 /var/www/html/magento/vendor/magento/module-customer/Model/ResourceModel/CustomerRepository.php(385): Magento\Customer\Model\CustomerRegistry->retrieve()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Customer\Model\ResourceModel\CustomerRepository->getById()
+#3 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->___callParent()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->Magento\Framework\Interception\{closure}()
+#5 /var/www/html/magento/generated/code/Magento/Customer/Model/ResourceModel/CustomerRepository/Interceptor.php(41): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->___callPlugins()
+#6 /var/www/html/magento/vendor/magento/module-customer-graph-ql/Model/Context/AddUserInfoToContext.php(79): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->getById()
+#7 /var/www/html/magento/vendor/magento/module-graph-ql/Model/Query/ContextFactory.php(71): Magento\CustomerGraphQl\Model\Context\AddUserInfoToContext->execute()
+#8 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(194): Magento\GraphQl\Model\Query\ContextFactory->create()
+#9 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#10 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#11 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(71): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#12 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#13 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#14 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#15 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#16 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#17 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#18 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#19 {main}
+
+Next Exception: Report ID: graph-ql-62d996d27c6b3; Message: 没有任何具有% fieldName = % fieldValue的实体 in /var/www/html/magento/vendor/magento/framework/GraphQl/Exception/ExceptionFormatter.php:64
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(199): Magento\Framework\GraphQl\Exception\ExceptionFormatter->create()
+#1 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#3 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(71): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#6 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#7 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#8 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#9 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#10 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#11 {main} [] []
+[2022-07-21T18:11:32.276314+00:00] report.CRITICAL: Magento\Framework\Exception\NoSuchEntityException: 没有任何具有% fieldName = % fieldValue的实体 in /var/www/html/magento/vendor/magento/framework/Exception/NoSuchEntityException.php:50
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-customer/Model/CustomerRegistry.php(84): Magento\Framework\Exception\NoSuchEntityException::singleField()
+#1 /var/www/html/magento/vendor/magento/module-customer/Model/ResourceModel/CustomerRepository.php(385): Magento\Customer\Model\CustomerRegistry->retrieve()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Customer\Model\ResourceModel\CustomerRepository->getById()
+#3 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->___callParent()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->Magento\Framework\Interception\{closure}()
+#5 /var/www/html/magento/generated/code/Magento/Customer/Model/ResourceModel/CustomerRepository/Interceptor.php(41): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->___callPlugins()
+#6 /var/www/html/magento/vendor/magento/module-customer-graph-ql/Model/Context/AddUserInfoToContext.php(79): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->getById()
+#7 /var/www/html/magento/vendor/magento/module-graph-ql/Model/Query/ContextFactory.php(71): Magento\CustomerGraphQl\Model\Context\AddUserInfoToContext->execute()
+#8 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(194): Magento\GraphQl\Model\Query\ContextFactory->create()
+#9 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#10 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#11 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(71): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#12 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#13 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#14 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#15 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#16 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#17 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#18 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#19 {main}
+
+Next Exception: Report ID: graph-ql-62d996d443634; Message: 没有任何具有% fieldName = % fieldValue的实体 in /var/www/html/magento/vendor/magento/framework/GraphQl/Exception/ExceptionFormatter.php:64
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(199): Magento\Framework\GraphQl\Exception\ExceptionFormatter->create()
+#1 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#3 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(71): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#6 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#7 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#8 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#9 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#10 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#11 {main} [] []
+[2022-07-21T18:11:39.945362+00:00] report.CRITICAL: Magento\Framework\Exception\NoSuchEntityException: 没有任何具有% fieldName = % fieldValue的实体 in /var/www/html/magento/vendor/magento/framework/Exception/NoSuchEntityException.php:50
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-customer/Model/CustomerRegistry.php(84): Magento\Framework\Exception\NoSuchEntityException::singleField()
+#1 /var/www/html/magento/vendor/magento/module-customer/Model/ResourceModel/CustomerRepository.php(385): Magento\Customer\Model\CustomerRegistry->retrieve()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Customer\Model\ResourceModel\CustomerRepository->getById()
+#3 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->___callParent()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->Magento\Framework\Interception\{closure}()
+#5 /var/www/html/magento/generated/code/Magento/Customer/Model/ResourceModel/CustomerRepository/Interceptor.php(41): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->___callPlugins()
+#6 /var/www/html/magento/vendor/magento/module-customer-graph-ql/Model/Context/AddUserInfoToContext.php(79): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->getById()
+#7 /var/www/html/magento/vendor/magento/module-graph-ql/Model/Query/ContextFactory.php(71): Magento\CustomerGraphQl\Model\Context\AddUserInfoToContext->execute()
+#8 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(194): Magento\GraphQl\Model\Query\ContextFactory->create()
+#9 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#10 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#11 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(71): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#12 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#13 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#14 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#15 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#16 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#17 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#18 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#19 {main}
+
+Next Exception: Report ID: graph-ql-62d996dbe6ac9; Message: 没有任何具有% fieldName = % fieldValue的实体 in /var/www/html/magento/vendor/magento/framework/GraphQl/Exception/ExceptionFormatter.php:64
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(199): Magento\Framework\GraphQl\Exception\ExceptionFormatter->create()
+#1 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#3 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(71): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#6 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#7 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#8 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#9 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#10 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#11 {main} [] []
+[2022-07-21T18:11:40.546091+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T18:11:40.568320+00:00] report.CRITICAL: Magento\Framework\Exception\NoSuchEntityException: 没有任何具有% fieldName = % fieldValue的实体 in /var/www/html/magento/vendor/magento/framework/Exception/NoSuchEntityException.php:50
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-customer/Model/CustomerRegistry.php(84): Magento\Framework\Exception\NoSuchEntityException::singleField()
+#1 /var/www/html/magento/vendor/magento/module-customer/Model/ResourceModel/CustomerRepository.php(385): Magento\Customer\Model\CustomerRegistry->retrieve()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Customer\Model\ResourceModel\CustomerRepository->getById()
+#3 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->___callParent()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->Magento\Framework\Interception\{closure}()
+#5 /var/www/html/magento/generated/code/Magento/Customer/Model/ResourceModel/CustomerRepository/Interceptor.php(41): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->___callPlugins()
+#6 /var/www/html/magento/vendor/magento/module-customer-graph-ql/Model/Context/AddUserInfoToContext.php(79): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->getById()
+#7 /var/www/html/magento/vendor/magento/module-graph-ql/Model/Query/ContextFactory.php(71): Magento\CustomerGraphQl\Model\Context\AddUserInfoToContext->execute()
+#8 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(194): Magento\GraphQl\Model\Query\ContextFactory->create()
+#9 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#10 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#11 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(71): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#12 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#13 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#14 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#15 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#16 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#17 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#18 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#19 {main}
+
+Next Exception: Report ID: graph-ql-62d996dc8abdf; Message: 没有任何具有% fieldName = % fieldValue的实体 in /var/www/html/magento/vendor/magento/framework/GraphQl/Exception/ExceptionFormatter.php:64
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(199): Magento\Framework\GraphQl\Exception\ExceptionFormatter->create()
+#1 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#3 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(71): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#6 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#7 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#8 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#9 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#10 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#11 {main} [] []
+[2022-07-21T18:11:44.812403+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T18:11:46.396795+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T18:11:46.435874+00:00] report.CRITICAL: Magento\Framework\Exception\NoSuchEntityException: 没有任何具有% fieldName = % fieldValue的实体 in /var/www/html/magento/vendor/magento/framework/Exception/NoSuchEntityException.php:50
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-customer/Model/CustomerRegistry.php(84): Magento\Framework\Exception\NoSuchEntityException::singleField()
+#1 /var/www/html/magento/vendor/magento/module-customer/Model/ResourceModel/CustomerRepository.php(385): Magento\Customer\Model\CustomerRegistry->retrieve()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Customer\Model\ResourceModel\CustomerRepository->getById()
+#3 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->___callParent()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->Magento\Framework\Interception\{closure}()
+#5 /var/www/html/magento/generated/code/Magento/Customer/Model/ResourceModel/CustomerRepository/Interceptor.php(41): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->___callPlugins()
+#6 /var/www/html/magento/vendor/magento/module-customer-graph-ql/Model/Context/AddUserInfoToContext.php(79): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->getById()
+#7 /var/www/html/magento/vendor/magento/module-graph-ql/Model/Query/ContextFactory.php(71): Magento\CustomerGraphQl\Model\Context\AddUserInfoToContext->execute()
+#8 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(194): Magento\GraphQl\Model\Query\ContextFactory->create()
+#9 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#10 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#11 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(71): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#12 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#13 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#14 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#15 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#16 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#17 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#18 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#19 {main}
+
+Next Exception: Report ID: graph-ql-62d996e26a682; Message: 没有任何具有% fieldName = % fieldValue的实体 in /var/www/html/magento/vendor/magento/framework/GraphQl/Exception/ExceptionFormatter.php:64
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(199): Magento\Framework\GraphQl\Exception\ExceptionFormatter->create()
+#1 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#3 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(71): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#6 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#7 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#8 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#9 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#10 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#11 {main} [] []
+[2022-07-21T18:11:48.017843+00:00] report.CRITICAL: Lost connection to Redis server. [] []
+[2022-07-21T18:11:48.052298+00:00] report.CRITICAL: Magento\Framework\Exception\NoSuchEntityException: 没有任何具有% fieldName = % fieldValue的实体 in /var/www/html/magento/vendor/magento/framework/Exception/NoSuchEntityException.php:50
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-customer/Model/CustomerRegistry.php(84): Magento\Framework\Exception\NoSuchEntityException::singleField()
+#1 /var/www/html/magento/vendor/magento/module-customer/Model/ResourceModel/CustomerRepository.php(385): Magento\Customer\Model\CustomerRegistry->retrieve()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Customer\Model\ResourceModel\CustomerRepository->getById()
+#3 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->___callParent()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->Magento\Framework\Interception\{closure}()
+#5 /var/www/html/magento/generated/code/Magento/Customer/Model/ResourceModel/CustomerRepository/Interceptor.php(41): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->___callPlugins()
+#6 /var/www/html/magento/vendor/magento/module-customer-graph-ql/Model/Context/AddUserInfoToContext.php(79): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->getById()
+#7 /var/www/html/magento/vendor/magento/module-graph-ql/Model/Query/ContextFactory.php(71): Magento\CustomerGraphQl\Model\Context\AddUserInfoToContext->execute()
+#8 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(194): Magento\GraphQl\Model\Query\ContextFactory->create()
+#9 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#10 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#11 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(71): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#12 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#13 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#14 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#15 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#16 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#17 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#18 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#19 {main}
+
+Next Exception: Report ID: graph-ql-62d996e40cc26; Message: 没有任何具有% fieldName = % fieldValue的实体 in /var/www/html/magento/vendor/magento/framework/GraphQl/Exception/ExceptionFormatter.php:64
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(199): Magento\Framework\GraphQl\Exception\ExceptionFormatter->create()
+#1 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#3 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(71): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#6 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#7 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#8 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#9 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#10 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#11 {main} [] []
+[2022-07-21T18:11:48.649128+00:00] report.CRITICAL: Magento\Framework\Exception\NoSuchEntityException: 没有任何具有% fieldName = % fieldValue的实体 in /var/www/html/magento/vendor/magento/framework/Exception/NoSuchEntityException.php:50
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-customer/Model/CustomerRegistry.php(84): Magento\Framework\Exception\NoSuchEntityException::singleField()
+#1 /var/www/html/magento/vendor/magento/module-customer/Model/ResourceModel/CustomerRepository.php(385): Magento\Customer\Model\CustomerRegistry->retrieve()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Customer\Model\ResourceModel\CustomerRepository->getById()
+#3 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->___callParent()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->Magento\Framework\Interception\{closure}()
+#5 /var/www/html/magento/generated/code/Magento/Customer/Model/ResourceModel/CustomerRepository/Interceptor.php(41): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->___callPlugins()
+#6 /var/www/html/magento/vendor/magento/module-customer-graph-ql/Model/Context/AddUserInfoToContext.php(79): Magento\Customer\Model\ResourceModel\CustomerRepository\Interceptor->getById()
+#7 /var/www/html/magento/vendor/magento/module-graph-ql/Model/Query/ContextFactory.php(71): Magento\CustomerGraphQl\Model\Context\AddUserInfoToContext->execute()
+#8 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(194): Magento\GraphQl\Model\Query\ContextFactory->create()
+#9 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#10 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#11 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(71): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#12 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#13 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#14 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#15 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#16 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#17 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#18 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#19 {main}
+
+Next Exception: Report ID: graph-ql-62d996e49e5d6; Message: 没有任何具有% fieldName = % fieldValue的实体 in /var/www/html/magento/vendor/magento/framework/GraphQl/Exception/ExceptionFormatter.php:64
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(199): Magento\Framework\GraphQl\Exception\ExceptionFormatter->create()
+#1 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#3 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(71): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#6 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#7 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#8 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#9 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#10 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#11 {main} [] []
+[2022-07-21T18:11:51.201547+00:00] report.CRITICAL: Lost connection to Redis server. [] []

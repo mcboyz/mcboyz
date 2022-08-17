@@ -1,0 +1,320 @@
+[2022-07-14T02:20:21.235861+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Observer/SendSmsToCustomerObserver.php
+ Line: 69
+ Module: Unilever-NewCustomerNotification
+ Message: Send SMS to Customer Observer Triggered [] []
+[2022-07-14T02:20:21.335992+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/Notification/Model/SendSmsNotification.php
+ Line: 96
+ Module: Unilever-Notification
+ Message: Added new message to queue success. [] []
+[2022-07-14T02:20:21.336074+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Model/SendSmsToCustomer.php
+ Line: 109
+ Module: Unilever-NewCustomerNotification
+ Message: Registration Success SMS, sent to the customer - 67 [] []
+[2022-07-14T10:30:05.770920+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Observer/SendSmsToCustomerObserver.php
+ Line: 69
+ Module: Unilever-NewCustomerNotification
+ Message: Send SMS to Customer Observer Triggered [] []
+[2022-07-14T10:30:05.855949+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/Notification/Model/SendSmsNotification.php
+ Line: 96
+ Module: Unilever-Notification
+ Message: Added new message to queue success. [] []
+[2022-07-14T10:30:05.856024+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Model/SendSmsToCustomer.php
+ Line: 109
+ Module: Unilever-NewCustomerNotification
+ Message: Registration Success SMS, sent to the customer - 68 [] []
+[2022-07-15T10:54:52.649029+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Observer/SendSmsToCustomerObserver.php
+ Line: 69
+ Module: Unilever-NewCustomerNotification
+ Message: Send SMS to Customer Observer Triggered [] []
+[2022-07-15T10:54:52.794605+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/Notification/Model/SendSmsNotification.php
+ Line: 96
+ Module: Unilever-Notification
+ Message: Added new message to queue success. [] []
+[2022-07-15T10:54:52.794664+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Model/SendSmsToCustomer.php
+ Line: 109
+ Module: Unilever-NewCustomerNotification
+ Message: Registration Success SMS, sent to the customer - 69 [] []
+[2022-07-15T15:16:15.029974+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Observer/SendSmsToCustomerObserver.php
+ Line: 70
+ Module: Unilever-NewCustomerNotification
+ Message: Send SMS to Customer Observer Triggered [] []
+[2022-07-15T15:16:15.095986+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/Notification/Model/SendSmsNotification.php
+ Line: 96
+ Module: Unilever-Notification
+ Message: Added new message to queue success. [] []
+[2022-07-15T15:16:15.096074+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Model/SendSmsToCustomer.php
+ Line: 108
+ Module: Unilever-NewCustomerNotification
+ Message: Registration Success SMS, sent to the customer - 19 [] []
+[2022-07-15T15:28:23.665439+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/Notification/Model/SendSmsNotification.php
+ Line: 96
+ Module: Unilever-Notification
+ Message: Added new message to queue success. [] []
+[2022-07-15T15:28:23.665581+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Model/SendSmsToCustomer.php
+ Line: 108
+ Module: Unilever-NewCustomerNotification
+ Message: Registration Success SMS, sent to the customer - 70 [] []
+[2022-07-15T15:28:23.714500+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/Notification/Model/SendSmsNotification.php
+ Line: 96
+ Module: Unilever-Notification
+ Message: Added new message to queue success. [] []
+[2022-07-15T15:28:23.714613+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Model/SendSmsToCustomer.php
+ Line: 108
+ Module: Unilever-NewCustomerNotification
+ Message: Registration Success SMS, sent to the customer - 71 [] []
+[2022-07-19T08:46:38.707607+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Observer/SendSmsToCustomerObserver.php
+ Line: 70
+ Module: Unilever-NewCustomerNotification
+ Message: Send SMS to Customer Observer Triggered [] []
+[2022-07-19T08:46:38.949095+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/Notification/Model/SendSmsNotification.php
+ Line: 96
+ Module: Unilever-Notification
+ Message: Added new message to queue success. [] []
+[2022-07-19T08:46:38.949158+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Model/SendSmsToCustomer.php
+ Line: 108
+ Module: Unilever-NewCustomerNotification
+ Message: Registration Success SMS, sent to the customer - 30 [] []
+[2022-07-19T13:00:20.615094+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Observer/SendSmsToCustomerObserver.php
+ Line: 70
+ Module: Unilever-NewCustomerNotification
+ Message: Send SMS to Customer Observer Triggered [] []
+[2022-07-19T13:09:40.962065+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Observer/SendSmsToCustomerObserver.php
+ Line: 70
+ Module: Unilever-NewCustomerNotification
+ Message: Send SMS to Customer Observer Triggered [] []
+[2022-07-19T13:10:27.154856+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Observer/SendSmsToCustomerObserver.php
+ Line: 70
+ Module: Unilever-NewCustomerNotification
+ Message: Send SMS to Customer Observer Triggered [] []
+[2022-07-19T15:45:14.562604+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Observer/SendSmsToCustomerObserver.php
+ Line: 71
+ Module: Unilever-NewCustomerNotification
+ Message: Send SMS to Customer Observer Triggered [] []
+[2022-07-19T15:47:53.400497+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Observer/SendSmsToCustomerObserver.php
+ Line: 71
+ Module: Unilever-NewCustomerNotification
+ Message: Send SMS to Customer Observer Triggered [] []
+[2022-07-20T06:39:12.648203+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Observer/SendSmsToCustomerObserver.php
+ Line: 71
+ Module: Unilever-NewCustomerNotification
+ Message: Send SMS to Customer Observer Triggered [] []
+[2022-07-20T07:11:09.901391+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Observer/SendSmsToCustomerObserver.php
+ Line: 71
+ Module: Unilever-NewCustomerNotification
+ Message: Send SMS to Customer Observer Triggered [] []
+[2022-07-21T13:05:17.448420+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Observer/SendSmsToCustomerObserver.php
+ Line: 71
+ Module: Unilever-NewCustomerNotification
+ Message: Send SMS to Customer Observer Triggered [] []
+[2022-07-21T13:05:17.516934+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Observer/SendSmsToCustomerObserver.php
+ Line: 71
+ Module: Unilever-NewCustomerNotification
+ Message: Send SMS to Customer Observer Triggered [] []
+[2022-07-22T09:23:39.833162+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Observer/SendSmsToCustomerObserver.php
+ Line: 71
+ Module: Unilever-NewCustomerNotification
+ Message: Send SMS to Customer Observer Triggered [] []
+[2022-07-22T09:37:07.761399+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Observer/SendSmsToCustomerObserver.php
+ Line: 71
+ Module: Unilever-NewCustomerNotification
+ Message: Send SMS to Customer Observer Triggered [] []
+[2022-07-22T11:17:22.369513+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Observer/SendSmsToCustomerObserver.php
+ Line: 71
+ Module: Unilever-NewCustomerNotification
+ Message: Send SMS to Customer Observer Triggered [] []
+[2022-07-22T11:17:22.447807+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Observer/SendSmsToCustomerObserver.php
+ Line: 71
+ Module: Unilever-NewCustomerNotification
+ Message: Send SMS to Customer Observer Triggered [] []
+[2022-07-22T12:16:29.562162+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Observer/SendSmsToCustomerObserver.php
+ Line: 71
+ Module: Unilever-NewCustomerNotification
+ Message: Send SMS to Customer Observer Triggered [] []
+[2022-07-25T12:51:38.441809+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Observer/SendSmsToCustomerObserver.php
+ Line: 62
+ Module: Unilever-NewCustomerNotification
+ Message: Send SMS to Customer Observer Triggered [] []
+[2022-07-26T05:54:40.324467+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Observer/SendSmsToCustomerObserver.php
+ Line: 62
+ Module: Unilever-NewCustomerNotification
+ Message: Send SMS to Customer Observer Triggered [] []
+[2022-07-26T05:54:40.685513+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/Notification/Model/SendSmsNotification.php
+ Line: 99
+ Module: Unilever-Notification
+ Message: Added SMS (53241232345) message to queue success. [] []
+[2022-07-26T05:54:40.685589+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Model/SendSmsToCustomer.php
+ Line: 108
+ Module: Unilever-NewCustomerNotification
+ Message: Registration Success SMS, sent to the customer - 77 [] []
+[2022-07-28T13:02:20.701165+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/Notification/Model/SendSmsNotification.php
+ Line: 99
+ Module: Unilever-Notification
+ Message: Added SMS (12345678911) message to queue success. [] []
+[2022-07-28T13:02:20.701269+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Model/SendSmsToCustomer.php
+ Line: 101
+ Module: Unilever-NewCustomerNotification
+ Message: Registration Success SMS, sent to the customer - 21 [] []
+[2022-08-03T10:29:03.901258+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/Notification/Model/OrderUpdateNotification.php
+ Line: 89
+ Module: Unilever-Notification
+ Message: Added message to queue for user:45455 success. [] []
+[2022-08-03T10:35:19.406086+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/Notification/Model/OrderUpdateNotification.php
+ Line: 89
+ Module: Unilever-Notification
+ Message: Added message to queue for user:45455 success. [] []
+[2022-08-05T05:27:13.021003+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Observer/SendSmsToCustomerObserver.php
+ Line: 62
+ Module: Unilever-NewCustomerNotification
+ Message: Send SMS to Customer Observer Triggered [] []
+[2022-08-05T05:27:13.061632+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Model/SendSmsToCustomer.php
+ Line: 91
+ Module: Unilever-NewCustomerNotification
+ Message: Registration SMS, Mobile number is empty for the customer - 78 [] []
+[2022-08-05T05:27:13.180905+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Observer/SendSmsToCustomerObserver.php
+ Line: 62
+ Module: Unilever-NewCustomerNotification
+ Message: Send SMS to Customer Observer Triggered [] []
+[2022-08-05T05:27:13.182637+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Model/SendSmsToCustomer.php
+ Line: 91
+ Module: Unilever-NewCustomerNotification
+ Message: Registration SMS, Mobile number is empty for the customer - 78 [] []
+[2022-08-05T05:27:58.816846+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Observer/SendSmsToCustomerObserver.php
+ Line: 62
+ Module: Unilever-NewCustomerNotification
+ Message: Send SMS to Customer Observer Triggered [] []
+[2022-08-05T05:27:58.819532+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Model/SendSmsToCustomer.php
+ Line: 91
+ Module: Unilever-NewCustomerNotification
+ Message: Registration SMS, Mobile number is empty for the customer - 79 [] []
+[2022-08-05T05:27:58.876616+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Observer/SendSmsToCustomerObserver.php
+ Line: 62
+ Module: Unilever-NewCustomerNotification
+ Message: Send SMS to Customer Observer Triggered [] []
+[2022-08-05T05:27:58.878463+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Model/SendSmsToCustomer.php
+ Line: 91
+ Module: Unilever-NewCustomerNotification
+ Message: Registration SMS, Mobile number is empty for the customer - 79 [] []
+[2022-08-05T05:30:12.539588+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Observer/SendSmsToCustomerObserver.php
+ Line: 62
+ Module: Unilever-NewCustomerNotification
+ Message: Send SMS to Customer Observer Triggered [] []
+[2022-08-05T05:30:12.591851+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/Notification/Model/SendSmsNotification.php
+ Line: 99
+ Module: Unilever-Notification
+ Message: Added SMS (9988999999) message to queue success. [] []
+[2022-08-05T05:30:12.591928+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Model/SendSmsToCustomer.php
+ Line: 101
+ Module: Unilever-NewCustomerNotification
+ Message: Registration Success SMS, sent to the customer - 78 [] []
+[2022-08-05T05:37:39.611537+00:00] Notification.ERROR:
+ File: /var/www/html/magento/app/code/Unilever/Notification/Model/OrderUpdateNotification.php
+ Line: 91
+ Module: Unilever-Notification
+ Message: The required fields are empty or invalid, Please check and try again! [] []
+[2022-08-05T05:37:54.537202+00:00] Notification.ERROR:
+ File: /var/www/html/magento/app/code/Unilever/Notification/Model/OrderUpdateNotification.php
+ Line: 91
+ Module: Unilever-Notification
+ Message: The required fields are empty or invalid, Please check and try again! [] []
+[2022-08-05T13:17:33.181138+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/Notification/Model/OrderUpdateNotification.php
+ Line: 90
+ Module: Unilever-Notification
+ Message: Added message to queue for user:45455 success. [] []
+[2022-08-05T13:24:19.833672+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/Notification/Model/OrderUpdateNotification.php
+ Line: 90
+ Module: Unilever-Notification
+ Message: Added message to queue for user:45455 success. [] []
+[2022-08-05T15:29:29.958222+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/OrderUpdate/Model/Order/OrderStatusShipmentUpdate.php
+ Line: 75
+ Module: Unilever-OrderUpdate
+ Message: 000000007 Status Updated [] []
+[2022-08-05T15:34:47.599702+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/OrderUpdate/Model/Order/OrderStatusShipmentUpdate.php
+ Line: 75
+ Module: Unilever-OrderUpdate
+ Message: 000000007 Status Updated [] []
+[2022-08-09T14:49:37.792677+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/Notification/Model/SendSmsNotification.php
+ Line: 102
+ Module: Unilever-Notification
+ Message: Added SMS (23546) message to queue success. [] []
+[2022-08-09T14:49:37.792782+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Model/SendSmsToCustomer.php
+ Line: 133
+ Module: Unilever-NewCustomerNotification
+ Message: Registration Success SMS, sent to the customer - 78 [] []
+[2022-08-09T14:55:08.527788+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/Notification/Model/OrderUpdateNotification.php
+ Line: 90
+ Module: Unilever-Notification
+ Message: Added message to queue for user:45455 success. [] []
+[2022-08-10T12:10:07.457545+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Observer/SendSmsToCustomerObserver.php
+ Line: 62
+ Module: Unilever-NewCustomerNotification
+ Message: Send SMS to Customer Observer Triggered [] []
+[2022-08-10T12:10:07.500775+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/Notification/Model/SendSmsNotification.php
+ Line: 102
+ Module: Unilever-Notification
+ Message: Added SMS (99403892177) message to queue success. [] []
+[2022-08-10T12:10:07.500839+00:00] Notification.INFO:
+ File: /var/www/html/magento/app/code/Unilever/NewCustomerNotification/Model/SendSmsToCustomer.php
+ Line: 133
+ Module: Unilever-NewCustomerNotification
+ Message: Registration Success SMS, sent to the customer - 5 [] []

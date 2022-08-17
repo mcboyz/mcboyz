@@ -1,0 +1,85 @@
+[2022-08-04T05:34:01.811451+00:00] CustomerLogin.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CustomerLogin/Plugin/Resolver/GenerateCustomerTokenResolver.php
+ Line: 133
+ Module: Unilever-CustomerLogin
+ Message: No such mobile number exists! [] []
+[2022-08-04T05:35:19.147051+00:00] CustomerLogin.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CustomerLogin/Plugin/Resolver/GenerateCustomerTokenResolver.php
+ Line: 130
+ Module: Unilever-CustomerLogin
+ Message: Email: john@gmail.com [] []
+[2022-08-04T05:35:23.394636+00:00] CustomerLogin.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CustomerLogin/Plugin/Resolver/GenerateCustomerTokenResolver.php
+ Line: 130
+ Module: Unilever-CustomerLogin
+ Message: Email: john@gmail.com [] []
+[2022-08-04T05:36:28.173729+00:00] CustomerLogin.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CustomerLogin/Plugin/Resolver/GenerateCustomerTokenResolver.php
+ Line: 130
+ Module: Unilever-CustomerLogin
+ Message: Email: testcustomeruser@example.com [] []
+[2022-08-04T05:36:31.268850+00:00] CustomerLogin.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CustomerLogin/Plugin/Resolver/GenerateCustomerTokenResolver.php
+ Line: 130
+ Module: Unilever-CustomerLogin
+ Message: Email: testcustomeruser@example.com [] []
+[2022-08-04T07:03:19.647827+00:00] CustomerLogin.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CustomerLogin/Plugin/Resolver/GenerateCustomerTokenResolver.php
+ Line: 133
+ Module: Unilever-CustomerLogin
+ Message: No such mobile number exists! [] []
+[2022-08-04T07:42:06.245871+00:00] CustomerLogin.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CustomerLogin/Plugin/Resolver/GenerateCustomerTokenResolver.php
+ Line: 130
+ Module: Unilever-CustomerLogin
+ Message: Email: john@gmail.com [] []
+[2022-08-04T07:42:07.003787+00:00] CustomerLogin.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CustomerLogin/Plugin/Resolver/GenerateCustomerTokenResolver.php
+ Line: 130
+ Module: Unilever-CustomerLogin
+ Message: Email: john@gmail.com [] []
+[2022-08-04T07:42:16.959558+00:00] CustomerLogin.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CustomerLogin/Plugin/Resolver/GenerateCustomerTokenResolver.php
+ Line: 130
+ Module: Unilever-CustomerLogin
+ Message: Email: testcustomeruser@example.com [] []
+[2022-08-04T07:42:17.676934+00:00] CustomerLogin.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CustomerLogin/Plugin/Resolver/GenerateCustomerTokenResolver.php
+ Line: 130
+ Module: Unilever-CustomerLogin
+ Message: Email: testcustomeruser@example.com [] []
+[2022-08-04T08:06:43.647115+00:00] CustomerLogin.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CustomerLogin/Plugin/Resolver/GenerateCustomerTokenResolver.php
+ Line: 133
+ Module: Unilever-CustomerLogin
+ Message: No such mobile number exists! [] []
+[2022-08-05T10:23:33.754407+00:00] CustomerLogin.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CustomerLogin/Plugin/Resolver/GenerateCustomerTokenResolver.php
+ Line: 133
+ Module: Unilever-CustomerLogin
+ Message: No such mobile number exists! [] []
+[2022-08-05T10:23:50.635047+00:00] CustomerLogin.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CustomerLogin/Plugin/Resolver/GenerateCustomerTokenResolver.php
+ Line: 130
+ Module: Unilever-CustomerLogin
+ Message: Email: testVMUserCust@example.com [] []
+[2022-08-10T11:01:51.760043+00:00] CustomerLogin.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CustomerLogin/Plugin/Resolver/GenerateCustomerTokenResolver.php
+ Line: 133
+ Module: Unilever-CustomerLogin
+ Message: No such mobile number exists! [] []
+[2022-08-10T11:01:52.733418+00:00] CustomerLogin.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CustomerLogin/Plugin/Resolver/GenerateCustomerTokenResolver.php
+ Line: 133
+ Module: Unilever-CustomerLogin
+ Message: No such mobile number exists! [] []
+[2022-08-10T11:03:05.253877+00:00] CustomerLogin.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CustomerLogin/Plugin/Resolver/GenerateCustomerTokenResolver.php
+ Line: 133
+ Module: Unilever-CustomerLogin
+ Message: No such mobile number exists! [] []
+[2022-08-10T11:03:06.042401+00:00] CustomerLogin.INFO:
+ File: /var/www/html/magento/app/code/Unilever/CustomerLogin/Plugin/Resolver/GenerateCustomerTokenResolver.php
+ Line: 133
+ Module: Unilever-CustomerLogin
+ Message: No such mobile number exists! [] []

@@ -1,0 +1,95 @@
+[2022-08-10T13:47:51.434208+00:00] BulkOrder.INFO:
+ File: /var/www/html/magento/app/code/Unilever/BulkOrder/Model/Resolver/BulkSpecialOrder.php
+ Line: 103
+ Module: Unilever-BulkOrder
+ Message: {"status":false,"success_msgs":["0 item(s) have been added."],"error_msgs":["You have not added any item."],"error_items":[],"customer_data":{"firstname":"John","unilever_soldto_code":"15079004","street":"\u6cb3\u5317\u7701\u8861\u6c34\u5e02\u4e1c\u660e\u7269\u6d41\u56ed\u4ed3\u50a8\u90e8A\u533a7\u6392","unilever_shipto_code":"15363116"},"order_number":null} [] []
+[2022-08-10T14:53:24.665690+00:00] BulkOrder.INFO:
+ File: /var/www/html/magento/app/code/Unilever/BulkOrder/Model/Resolver/BulkSpecialOrder.php
+ Line: 103
+ Module: Unilever-BulkOrder
+ Message: {"status":false,"success_msgs":["0 item(s) have been added."],"error_msgs":["You have not added any item."],"error_items":[],"customer_data":{"firstname":"John","unilever_soldto_code":"15079004","street":"\u6cb3\u5317\u7701\u8861\u6c34\u5e02\u4e1c\u660e\u7269\u6d41\u56ed\u4ed3\u50a8\u90e8A\u533a7\u6392","unilever_shipto_code":"15363116"},"order_number":null} [] []
+[2022-08-11T08:04:55.449861+00:00] BulkOrder.INFO:
+ File: /var/www/html/magento/app/code/Unilever/BulkOrder/Model/Resolver/BulkSpecialOrder.php
+ Line: 103
+ Module: Unilever-BulkOrder
+ Message: {"status":false,"success_msgs":["0 item(s) have been added."],"error_msgs":["You have not added any item."],"error_items":[],"customer_data":{"firstname":"John","unilever_soldto_code":"15079004","street":"\u6cb3\u5317\u7701\u8861\u6c34\u5e02\u4e1c\u660e\u7269\u6d41\u56ed\u4ed3\u50a8\u90e8A\u533a7\u6392","unilever_shipto_code":"15363116"},"order_number":null} [] []
+[2022-08-11T08:40:35.175698+00:00] BulkOrder.INFO:
+ File: /var/www/html/magento/app/code/Unilever/BulkOrder/Model/Resolver/BulkSpecialOrder.php
+ Line: 103
+ Module: Unilever-BulkOrder
+ Message: {"status":false,"success_msgs":["0 item(s) have been added."],"error_msgs":["You have not added any item."],"error_items":[],"customer_data":{"firstname":"John","unilever_soldto_code":"15079004","street":"\u6cb3\u5317\u7701\u8861\u6c34\u5e02\u4e1c\u660e\u7269\u6d41\u56ed\u4ed3\u50a8\u90e8A\u533a7\u6392","unilever_shipto_code":"15363116"},"order_number":null} [] []
+[2022-08-11T08:41:05.416134+00:00] BulkOrder.INFO:
+ File: /var/www/html/magento/app/code/Unilever/BulkOrder/Model/Resolver/BulkSpecialOrder.php
+ Line: 103
+ Module: Unilever-BulkOrder
+ Message: {"status":false,"success_msgs":["0 item(s) have been added."],"error_msgs":["You have not added any item."],"error_items":[],"customer_data":{"firstname":"John","unilever_soldto_code":"15079004","street":"\u6cb3\u5317\u7701\u8861\u6c34\u5e02\u4e1c\u660e\u7269\u6d41\u56ed\u4ed3\u50a8\u90e8A\u533a7\u6392","unilever_shipto_code":"15363116"},"order_number":null} [] []
+[2022-08-11T08:43:50.395732+00:00] BulkOrder.INFO:
+ File: /var/www/html/magento/app/code/Unilever/BulkOrder/Model/Resolver/BulkSpecialOrder.php
+ Line: 115
+ Module: Unilever-BulkOrder
+ Message: The shipping method can't be set for an empty cart. Add an item to cart and try again. [] []
+[2022-08-11T08:44:08.116734+00:00] BulkOrder.INFO:
+ File: /var/www/html/magento/app/code/Unilever/BulkOrder/Model/Resolver/BulkSpecialOrder.php
+ Line: 115
+ Module: Unilever-BulkOrder
+ Message: The shipping method can't be set for an empty cart. Add an item to cart and try again. [] []
+[2022-08-11T08:44:26.134604+00:00] BulkOrder.INFO:
+ File: /var/www/html/magento/app/code/Unilever/BulkOrder/Model/Resolver/BulkSpecialOrder.php
+ Line: 115
+ Module: Unilever-BulkOrder
+ Message: The shipping method can't be set for an empty cart. Add an item to cart and try again. [] []
+[2022-08-11T08:44:43.335667+00:00] BulkOrder.INFO:
+ File: /var/www/html/magento/app/code/Unilever/BulkOrder/Model/Resolver/BulkSpecialOrder.php
+ Line: 103
+ Module: Unilever-BulkOrder
+ Message: {"status":false,"success_msgs":["0 item(s) have been added."],"error_msgs":["You have not added any item."],"error_items":[],"customer_data":{"firstname":"John","unilever_soldto_code":"15079004","street":"\u6cb3\u5317\u7701\u8861\u6c34\u5e02\u4e1c\u660e\u7269\u6d41\u56ed\u4ed3\u50a8\u90e8A\u533a7\u6392","unilever_shipto_code":"15363116"},"order_number":null} [] []
+[2022-08-11T09:13:51.787247+00:00] BulkOrder.INFO:
+ File: /var/www/html/magento/app/code/Unilever/BulkOrder/Model/Resolver/BulkSpecialOrder.php
+ Line: 103
+ Module: Unilever-BulkOrder
+ Message: {"status":false,"success_msgs":["0 item(s) have been added."],"error_msgs":["You have not added any item."],"error_items":[],"customer_data":{"firstname":"John","unilever_soldto_code":"15079004","street":"\u6cb3\u5317\u7701\u8861\u6c34\u5e02\u4e1c\u660e\u7269\u6d41\u56ed\u4ed3\u50a8\u90e8A\u533a7\u6392","unilever_shipto_code":"15363116"},"order_number":null} [] []
+[2022-08-11T09:14:15.782759+00:00] BulkOrder.INFO:
+ File: /var/www/html/magento/app/code/Unilever/BulkOrder/Model/Resolver/BulkSpecialOrder.php
+ Line: 103
+ Module: Unilever-BulkOrder
+ Message: {"status":false,"success_msgs":["0 item(s) have been added."],"error_msgs":["You have not added any item."],"error_items":[],"customer_data":{"firstname":"John","unilever_soldto_code":"15079004","street":"\u6cb3\u5317\u7701\u8861\u6c34\u5e02\u4e1c\u660e\u7269\u6d41\u56ed\u4ed3\u50a8\u90e8A\u533a7\u6392","unilever_shipto_code":"15363116"},"order_number":null} [] []
+[2022-08-11T09:38:44.112470+00:00] BulkOrder.INFO:
+ File: /var/www/html/magento/app/code/Unilever/BulkOrder/Model/Resolver/BulkSpecialOrder.php
+ Line: 103
+ Module: Unilever-BulkOrder
+ Message: {"status":false,"success_msgs":["0 item(s) have been added."],"error_msgs":["You have not added any item."],"error_items":[],"customer_data":{"firstname":"John","unilever_soldto_code":"15079004","street":"\u6cb3\u5317\u7701\u8861\u6c34\u5e02\u4e1c\u660e\u7269\u6d41\u56ed\u4ed3\u50a8\u90e8A\u533a7\u6392","unilever_shipto_code":"15363116"},"order_number":null} [] []
+[2022-08-11T10:52:07.075068+00:00] BulkOrder.INFO:
+ File: /var/www/html/magento/app/code/Unilever/BulkOrder/Model/Resolver/BulkSpecialOrder.php
+ Line: 103
+ Module: Unilever-BulkOrder
+ Message: {"status":false,"success_msgs":["0 item(s) have been added."],"error_msgs":["You have not added any item."],"error_items":[],"customer_data":{"firstname":"John","unilever_soldto_code":"15079004","street":"\u6cb3\u5317\u7701\u8861\u6c34\u5e02\u4e1c\u660e\u7269\u6d41\u56ed\u4ed3\u50a8\u90e8A\u533a7\u6392","unilever_shipto_code":"15363116"},"order_number":null} [] []
+[2022-08-11T10:52:34.285923+00:00] BulkOrder.INFO:
+ File: /var/www/html/magento/app/code/Unilever/BulkOrder/Model/Resolver/BulkSpecialOrder.php
+ Line: 103
+ Module: Unilever-BulkOrder
+ Message: {"status":false,"success_msgs":["0 item(s) have been added."],"error_msgs":["You have not added any item."],"error_items":[],"customer_data":{"firstname":"John","unilever_soldto_code":"15079004","street":"\u6cb3\u5317\u7701\u8861\u6c34\u5e02\u4e1c\u660e\u7269\u6d41\u56ed\u4ed3\u50a8\u90e8A\u533a7\u6392","unilever_shipto_code":"15363116"},"order_number":null} [] []
+[2022-08-11T11:00:51.329269+00:00] BulkOrder.INFO:
+ File: /var/www/html/magento/app/code/Unilever/BulkOrder/Model/Resolver/BulkSpecialOrder.php
+ Line: 103
+ Module: Unilever-BulkOrder
+ Message: {"status":false,"success_msgs":["0 item(s) have been added."],"error_msgs":["You have not added any item."],"error_items":[],"customer_data":{"firstname":"John","unilever_soldto_code":"15079004","street":"\u6cb3\u5317\u7701\u8861\u6c34\u5e02\u4e1c\u660e\u7269\u6d41\u56ed\u4ed3\u50a8\u90e8A\u533a7\u6392","unilever_shipto_code":"15363116"},"order_number":null} [] []
+[2022-08-11T11:12:29.984963+00:00] BulkOrder.INFO:
+ File: /var/www/html/magento/app/code/Unilever/BulkOrder/Model/Resolver/BulkSpecialOrder.php
+ Line: 103
+ Module: Unilever-BulkOrder
+ Message: {"status":false,"success_msgs":["0 item(s) have been added."],"error_msgs":["You have not added any item."],"error_items":[],"customer_data":{"firstname":"John","unilever_soldto_code":"15079004","street":"\u6cb3\u5317\u7701\u8861\u6c34\u5e02\u4e1c\u660e\u7269\u6d41\u56ed\u4ed3\u50a8\u90e8A\u533a7\u6392","unilever_shipto_code":"15363116"},"order_number":null} [] []
+[2022-08-11T11:13:51.521952+00:00] BulkOrder.INFO:
+ File: /var/www/html/magento/app/code/Unilever/BulkOrder/Model/Resolver/BulkSpecialOrder.php
+ Line: 103
+ Module: Unilever-BulkOrder
+ Message: {"status":false,"success_msgs":["0 item(s) have been added."],"error_msgs":["You have not added any item."],"error_items":[],"customer_data":{"firstname":"John","unilever_soldto_code":"15079004","street":"\u6cb3\u5317\u7701\u8861\u6c34\u5e02\u4e1c\u660e\u7269\u6d41\u56ed\u4ed3\u50a8\u90e8A\u533a7\u6392","unilever_shipto_code":"15363116"},"order_number":null} [] []
+[2022-08-11T11:14:42.212977+00:00] BulkOrder.INFO:
+ File: /var/www/html/magento/app/code/Unilever/BulkOrder/Model/Resolver/BulkSpecialOrder.php
+ Line: 103
+ Module: Unilever-BulkOrder
+ Message: {"status":false,"success_msgs":["0 item(s) have been added."],"error_msgs":["You have not added any item."],"error_items":[],"customer_data":{"firstname":"John","unilever_soldto_code":"15079004","street":"\u6cb3\u5317\u7701\u8861\u6c34\u5e02\u4e1c\u660e\u7269\u6d41\u56ed\u4ed3\u50a8\u90e8A\u533a7\u6392","unilever_shipto_code":"15363116"},"order_number":null} [] []
+[2022-08-11T11:17:04.884900+00:00] BulkOrder.INFO:
+ File: /var/www/html/magento/app/code/Unilever/BulkOrder/Model/Resolver/BulkSpecialOrder.php
+ Line: 103
+ Module: Unilever-BulkOrder
+ Message: {"status":false,"success_msgs":["0 item(s) have been added."],"error_msgs":["You have not added any item."],"error_items":[],"customer_data":{"firstname":"John","unilever_soldto_code":"15079004","street":"\u6cb3\u5317\u7701\u8861\u6c34\u5e02\u4e1c\u660e\u7269\u6d41\u56ed\u4ed3\u50a8\u90e8A\u533a7\u6392","unilever_shipto_code":"15363116"},"order_number":null} [] []

@@ -1,0 +1,895 @@
+[2022-07-19T09:06:45.929815+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/SetPassword.php
+ Line: 132
+ Module: Unilever-SSOLoginGraphQl
+ Message: "Mobile Number"是一个必需的值。 [] []
+[2022-07-19T09:19:15.335293+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/SetPassword.php
+ Line: 132
+ Module: Unilever-SSOLoginGraphQl
+ Message: "Mobile Number"是一个必需的值。 [] []
+[2022-07-19T10:12:02.815190+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/SetPassword.php
+ Line: 132
+ Module: Unilever-SSOLoginGraphQl
+ Message: "Mobile Number"是一个必需的值。 [] []
+[2022-07-19T10:23:14.471815+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/SetPassword.php
+ Line: 132
+ Module: Unilever-SSOLoginGraphQl
+ Message: "Mobile Number"是一个必需的值。 [] []
+[2022-07-19T10:31:56.670441+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/SetPassword.php
+ Line: 104
+ Module: Unilever-SSOLoginGraphQl
+ Message: The current customer isn't authorized. [] []
+[2022-07-19T10:56:19.238713+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/SetPassword.php
+ Line: 132
+ Module: Unilever-SSOLoginGraphQl
+ Message: "Mobile Number"是一个必需的值。 [] []
+[2022-07-19T11:49:46.602936+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/SetPassword.php
+ Line: 104
+ Module: Unilever-SSOLoginGraphQl
+ Message: The current customer isn't authorized. [] []
+[2022-07-20T07:10:09.236424+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/SetPassword.php
+ Line: 104
+ Module: Unilever-SSOLoginGraphQl
+ Message: The current customer isn't authorized. [] []
+[2022-07-25T05:42:52.781109+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/SetPassword.php
+ Line: 104
+ Module: Unilever-SSOLoginGraphQl
+ Message: The current customer isn't authorized. [] []
+[2022-07-25T09:30:57.801422+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No such customer exists [] []
+[2022-07-25T09:30:57.801714+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 96
+ Module: Unilever-SSOLoginGraphQl
+ Message: No such customer exists [] []
+[2022-07-25T09:32:17.170324+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No such customer exists [] []
+[2022-07-25T09:32:17.170630+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 96
+ Module: Unilever-SSOLoginGraphQl
+ Message: No such customer exists [] []
+[2022-07-25T09:41:38.737551+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No such customer exists [] []
+[2022-07-25T09:41:38.738039+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 96
+ Module: Unilever-SSOLoginGraphQl
+ Message: No such customer exists [] []
+[2022-07-25T09:41:41.821586+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No such customer exists [] []
+[2022-07-25T09:41:41.821888+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 96
+ Module: Unilever-SSOLoginGraphQl
+ Message: No such customer exists [] []
+[2022-07-26T08:34:21.092293+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-07-26T08:34:21.092586+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-07-26T08:35:34.610013+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-07-26T08:35:34.610333+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-07-26T08:38:16.038720+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-07-26T08:38:16.039025+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-07-26T08:39:41.782781+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-07-26T08:39:41.783085+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-07-26T08:41:24.886358+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-07-26T08:41:24.886705+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-07-26T08:47:32.575152+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-07-26T08:47:32.575439+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-07-26T08:48:15.826716+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-07-26T08:48:15.827035+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-07-26T08:48:18.211687+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-07-26T08:48:18.211971+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-07-26T08:48:46.708771+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-07-26T08:48:46.709096+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-07-26T08:49:21.928059+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-07-26T08:49:21.928348+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-07-26T08:51:04.544302+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-07-26T08:51:04.544760+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-07-26T08:51:46.280241+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-07-26T08:51:46.280556+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-07-26T08:52:02.535557+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-07-26T08:52:02.535872+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-07-28T02:10:09.622079+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-07-28T02:10:09.622386+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-07-28T09:57:20.714414+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-07-28T09:57:20.836476+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-01T13:44:55.040536+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-01T13:44:55.040817+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-01T13:46:14.443615+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-01T13:46:14.443909+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-01T13:48:03.649028+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-01T13:48:03.649348+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-01T13:58:31.433264+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-01T13:58:31.433567+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T07:02:46.599003+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T07:02:46.599359+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T07:05:19.100013+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T07:05:19.100352+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T07:06:10.394107+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T07:06:10.394463+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T07:08:29.463329+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T07:08:29.463690+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T07:43:53.095511+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T07:43:53.095826+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T07:45:37.449228+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T07:45:37.449690+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T07:46:21.159441+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T07:46:21.159776+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T07:58:59.204702+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T07:58:59.205233+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T07:59:58.830917+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T07:59:58.831311+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T08:01:13.453631+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T08:01:13.453970+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T08:02:37.220904+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T08:02:37.221272+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T08:05:17.703348+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T08:05:17.703672+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T08:05:59.292119+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T08:05:59.292455+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T08:06:12.543330+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T08:06:12.543669+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T08:06:29.018487+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T08:06:29.018820+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T08:07:22.350747+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T08:07:22.351402+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T08:08:37.484449+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T08:08:37.484778+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T08:09:45.070245+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T08:09:45.070544+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T08:09:47.219455+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T08:09:47.219789+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T08:10:21.629205+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T08:10:21.629574+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T08:11:02.120560+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T08:11:02.120906+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T08:11:34.449470+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T08:11:34.449798+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T08:11:57.458382+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T08:11:57.458719+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T08:12:37.110818+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T08:12:37.111217+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T08:12:52.411650+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T08:12:52.411934+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T11:21:36.023353+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T11:21:36.023918+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T11:22:40.429446+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T11:22:40.429628+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T11:22:54.628145+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T11:22:54.628341+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T13:22:47.351531+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-04T13:22:47.392464+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-05T00:47:04.821924+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-05T00:47:04.822161+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-05T00:53:17.141058+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-05T00:53:17.141402+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-05T00:53:39.410170+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-05T00:53:39.410374+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-05T00:53:56.108272+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-05T00:53:56.108455+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-05T00:54:29.274310+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-05T00:54:29.274511+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-05T00:54:55.137190+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-05T00:54:55.137404+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-05T00:57:10.583046+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-05T00:57:10.583239+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-05T00:57:36.294450+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-05T00:57:36.294660+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-05T00:58:03.807260+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-05T00:58:03.807440+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-05T00:59:36.160515+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-05T00:59:36.160718+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-05T00:59:51.643581+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-05T00:59:51.643766+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-05T01:00:27.116913+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-05T01:00:27.117283+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-05T01:02:38.108122+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-05T01:02:38.108306+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-08T09:46:17.967579+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-08T09:46:17.967921+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-08T11:23:45.025541+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-08T11:23:45.025905+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-08T11:23:55.587251+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-08T11:23:55.587468+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-10T09:25:30.622063+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-10T09:25:30.622796+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-10T09:25:51.958576+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-10T09:25:51.958781+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-10T09:36:38.930440+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-10T09:36:38.930802+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-11T08:20:44.281935+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-11T08:20:44.282304+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-12T07:06:41.996696+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-12T07:06:41.997087+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-12T07:08:18.136957+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-12T07:08:18.137202+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-12T07:08:45.210672+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-12T07:08:45.210878+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-12T07:09:54.978659+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-12T07:09:54.978870+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-12T07:11:26.407526+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-12T07:11:26.407732+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-12T07:12:22.909974+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-12T07:12:22.910192+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-12T07:14:29.901035+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-12T07:14:29.901231+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-12T07:37:54.625799+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-12T07:37:54.626194+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-12T07:49:32.749202+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-12T07:49:32.749535+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-12T07:50:10.597249+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-12T07:50:10.597631+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-12T08:23:22.249575+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-12T08:23:22.249673+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-12T08:23:22.249906+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-12T08:23:22.249907+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-12T08:25:43.781948+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 117
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []
+[2022-08-12T08:25:43.782228+00:00] SSOLoginGraphQl.INFO:
+ File: /var/www/html/magento/app/code/Unilever/SSOLoginGraphQl/Model/Resolver/GenerateCustomerToken.php
+ Line: 97
+ Module: Unilever-SSOLoginGraphQl
+ Message: No active Customer Exists [] []

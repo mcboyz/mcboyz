@@ -1,0 +1,652 @@
+[2022-06-28T03:47:07.954000+00:00] report.ERROR: The current customer isn't authorized.
+
+GraphQL (2:3)
+1: {
+2:   customer {
+     ^
+3:     firstname
+ [] []
+[2022-06-28T03:47:07.982728+00:00] report.ERROR: The current customer isn't authorized.
+
+GraphQL (2:3)
+1: {
+2:   customer {
+     ^
+3:     firstname
+ [] []
+[2022-06-28T03:47:32.861844+00:00] report.ERROR: The current customer isn't authorized.
+
+GraphQL (2:3)
+1: {
+2:   customer {
+     ^
+3:     firstname
+ [] []
+[2022-06-28T03:47:32.862596+00:00] report.ERROR: The current customer isn't authorized.
+
+GraphQL (2:3)
+1: {
+2:   customer {
+     ^
+3:     firstname
+ [] []
+[2022-06-28T03:48:36.987288+00:00] report.ERROR: The current customer isn't authorized.
+
+GraphQL (2:3)
+1: {
+2:   customer {
+     ^
+3:     firstname
+ [] []
+[2022-06-28T03:49:12.854321+00:00] report.ERROR: The current customer isn't authorized.
+
+GraphQL (2:3)
+1: {
+2:   customer {
+     ^
+3:     firstname
+ [] []
+[2022-06-28T03:49:12.997635+00:00] report.ERROR: The current customer isn't authorized.
+
+GraphQL (2:3)
+1: {
+2:   customer {
+     ^
+3:     firstname
+ [] []
+[2022-06-28T03:49:59.434258+00:00] report.ERROR: The current customer isn't authorized.
+
+GraphQL (2:3)
+1: {
+2:   customer {
+     ^
+3:     firstname
+ [] []
+[2022-06-28T03:50:04.911790+00:00] report.ERROR: The current customer isn't authorized.
+
+GraphQL (2:3)
+1: {
+2:   customer {
+     ^
+3:     firstname
+ [] []
+[2022-06-28T03:50:36.928751+00:00] report.ERROR: The current customer isn't authorized.
+
+GraphQL (2:3)
+1: {
+2:   customer {
+     ^
+3:     firstname
+ [] []
+[2022-06-28T03:51:27.414908+00:00] report.ERROR: The CMS block with the "home-banner-1" ID doesn't exist.
+
+GraphQL (1:77)
+1: query cmsBlocks($identifiers:[String]!){cmsBlocks(identifiers:$identifiers){items{identifier title content __typename}__typename}}
+                                                                               ^
+ [] []
+[2022-06-28T03:51:27.419264+00:00] report.ERROR: Cannot query field "custom_attribute" on type "Customer".
+
+GraphQL (1:27)
+1: query getDetails{customer{custom_attribute{attribute value __typename}addresses{firstname lastname street city region{region_code region __typename}postcode country_code telephone __typename}smart_onboarding company_details{entity_id company_name company_email isNewVersionForPolicyConsent legal_name vat_tax_id telephone status reseller_id comment street city country_id region region_id postcode telephone customer_group_id customer_group_uid sales_representative_id super_user_id reject_reason rejected_at district sub_district address_type created_at updated_at isShowBlackoutPolicyConsent __typename}document_details{id company_id document_url document_type document_category_id document_category_name document_type_id document_url document_reject_message status registration_number created_at __typename}firstname lastname suffix email whatsapp_opt_in join_request_status mobile_number user_id product_user_group_id default_seller_id seller_details{seller_id __typename}created_at outlet_loyalty_details{user_id opt_in isNewVersionForLoyalty currentSlab isLoyaltyEnabled loyaltyEnabledFrom __typename}__typename}}
+                             ^
+ [] []
+[2022-06-28T03:51:27.718040+00:00] report.CRITICAL: Magento\Framework\GraphQl\Exception\GraphQlInputException: Max query complexity should be 300 but got 383. in /var/www/html/magento/vendor/magento/framework/GraphQl/Query/QueryComplexityLimiter.php:103
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/framework/GraphQl/Query/QueryProcessor.php(72): Magento\Framework\GraphQl\Query\QueryComplexityLimiter->validateFieldCount()
+#1 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(195): Magento\Framework\GraphQl\Query\QueryProcessor->process()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#3 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#4 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(75): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#6 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#7 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#8 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#9 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#10 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#11 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#12 {main}
+
+Next Exception: Report ID: graph-ql-62ba7abfaf3ae; Message: Max query complexity should be 300 but got 383. in /var/www/html/magento/vendor/magento/framework/GraphQl/Exception/ExceptionFormatter.php:64
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(199): Magento\Framework\GraphQl\Exception\ExceptionFormatter->create()
+#1 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#3 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(75): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#6 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#7 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#8 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#9 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#10 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#11 {main} [] []
+[2022-06-28T03:51:29.412529+00:00] report.CRITICAL: Magento\Framework\GraphQl\Exception\GraphQlInputException: Max query complexity should be 300 but got 383. in /var/www/html/magento/vendor/magento/framework/GraphQl/Query/QueryComplexityLimiter.php:103
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/framework/GraphQl/Query/QueryProcessor.php(72): Magento\Framework\GraphQl\Query\QueryComplexityLimiter->validateFieldCount()
+#1 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(195): Magento\Framework\GraphQl\Query\QueryProcessor->process()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#3 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#4 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(75): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#6 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#7 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#8 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#9 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#10 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#11 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#12 {main}
+
+Next Exception: Report ID: graph-ql-62ba7ac164a57; Message: Max query complexity should be 300 but got 383. in /var/www/html/magento/vendor/magento/framework/GraphQl/Exception/ExceptionFormatter.php:64
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(199): Magento\Framework\GraphQl\Exception\ExceptionFormatter->create()
+#1 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#3 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(75): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#6 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#7 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#8 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#9 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#10 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#11 {main} [] []
+[2022-06-28T03:51:31.483904+00:00] report.CRITICAL: Magento\Framework\GraphQl\Exception\GraphQlInputException: Max query complexity should be 300 but got 383. in /var/www/html/magento/vendor/magento/framework/GraphQl/Query/QueryComplexityLimiter.php:103
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/framework/GraphQl/Query/QueryProcessor.php(72): Magento\Framework\GraphQl\Query\QueryComplexityLimiter->validateFieldCount()
+#1 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(195): Magento\Framework\GraphQl\Query\QueryProcessor->process()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#3 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#4 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(75): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#6 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#7 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#8 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#9 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#10 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#11 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#12 {main}
+
+Next Exception: Report ID: graph-ql-62ba7ac37606a; Message: Max query complexity should be 300 but got 383. in /var/www/html/magento/vendor/magento/framework/GraphQl/Exception/ExceptionFormatter.php:64
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(199): Magento\Framework\GraphQl\Exception\ExceptionFormatter->create()
+#1 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#3 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(75): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#6 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#7 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#8 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#9 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#10 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#11 {main} [] []
+[2022-06-28T03:51:32.884469+00:00] report.CRITICAL: Magento\Framework\GraphQl\Exception\GraphQlInputException: Max query complexity should be 300 but got 383. in /var/www/html/magento/vendor/magento/framework/GraphQl/Query/QueryComplexityLimiter.php:103
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/framework/GraphQl/Query/QueryProcessor.php(72): Magento\Framework\GraphQl\Query\QueryComplexityLimiter->validateFieldCount()
+#1 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(195): Magento\Framework\GraphQl\Query\QueryProcessor->process()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#3 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#4 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(75): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#6 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#7 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#8 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#9 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#10 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#11 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#12 {main}
+
+Next Exception: Report ID: graph-ql-62ba7ac4d7de3; Message: Max query complexity should be 300 but got 383. in /var/www/html/magento/vendor/magento/framework/GraphQl/Exception/ExceptionFormatter.php:64
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(199): Magento\Framework\GraphQl\Exception\ExceptionFormatter->create()
+#1 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#3 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(75): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#6 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#7 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#8 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#9 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#10 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#11 {main} [] []
+[2022-06-28T03:51:38.555419+00:00] report.CRITICAL: Magento\Framework\GraphQl\Exception\GraphQlInputException: Max query complexity should be 300 but got 383. in /var/www/html/magento/vendor/magento/framework/GraphQl/Query/QueryComplexityLimiter.php:103
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/framework/GraphQl/Query/QueryProcessor.php(72): Magento\Framework\GraphQl\Query\QueryComplexityLimiter->validateFieldCount()
+#1 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(195): Magento\Framework\GraphQl\Query\QueryProcessor->process()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#3 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#4 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(75): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#6 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#7 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#8 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#9 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#10 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#11 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#12 {main}
+
+Next Exception: Report ID: graph-ql-62ba7aca877c4; Message: Max query complexity should be 300 but got 383. in /var/www/html/magento/vendor/magento/framework/GraphQl/Exception/ExceptionFormatter.php:64
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(199): Magento\Framework\GraphQl\Exception\ExceptionFormatter->create()
+#1 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#3 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(75): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#6 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#7 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#8 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#9 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#10 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#11 {main} [] []
+[2022-06-28T03:52:00.041233+00:00] report.ERROR: Unknown argument "sortByDate" on field "customerOrders" of type "Query".
+
+GraphQL (1:36)
+1: query getLiveOrders{customerOrders(sortByDate:"DESC" liveOrders:1){items{order_number id grand_total status state delivery_date created_at products{name sku qty row_total __typename}__typename}__typename}}
+                                      ^
+ [] []
+[2022-06-28T03:52:00.100833+00:00] report.ERROR: Field "high_margin" is not defined by type ProductAttributeFilterInput.
+
+GraphQL (1:57)
+1: query getHighMargin($userGroup:String){products(filter:{high_margin:{eq:"1"}exclude_outofstock:{eq:"1"}user_group:{eq:$userGroup}}pageSize:20 currentPage:1){items{max_sale_qty msrp sku principle_name_custom principle_name net_weight_gr net_content_ml id name stock_status is_recommended high_margin best_seller is_new_arrival margin margin_percentage only_x_left_in_stock saleable_qty brand brand_name categories{name id level url_key __typename}attributes{min_piece_per_order multiple_piece_per_order nb_items_case nb_items_pack nb_items_piece nb_items_sachet nb_items_shrink __typename}price_tiers{discount{amount_off percent_off discount_type __typename}quantity __typename}short_description{html __typename}price_range{maximum_price{regular_price{value __typename}final_price{value __typename}__typename}minimum_price{regular_price{value __typename}final_price{value __typename}__typename}__typename}image{url __typename}thumbnail{url __typename}small_image{url __typename}media_gallery{url __typename}...on ConfigurableProduct{configurable_options{id label position use_default attribute_code values{value_index label swatch_data{value __typename}__typename}product_id __typename}variants{product{msrp id name sku brand brand_name saleable_qty image{url __typename}small_image{url __typename}thumbnail{url __typename}media_gallery{url __typename}attribute_set_id ...on PhysicalProductInterface{weight __typename}price_range{maximum_price{regular_price{value __typename}final_price{value __typename}__typename}minimum_price{regular_price{value __typename}final_price{value __typename}__typename}__typename}__typename}attributes{label code value_index __typename}__typename}__typename}__typename}total_count __typename}}
+                                                           ^
+ [] []
+[2022-06-28T03:52:00.239273+00:00] report.ERROR: Cannot query field "getBanners" on type "Query".
+
+GraphQL (1:148)
+1: query getSmallWidthBanner($show_on_section:String$show_on_id:String$customer_group_id:[Int]$seller_id:[Int]$banner_scope:String$width_type:String){getBanners(show_on_section:$show_on_section show_on_id:$show_on_id customer_group_id:$customer_group_id seller_id:$seller_id banner_scope:$banner_scope width_type:$width_type){width_type button_label imageUrl position subtitle title url_banner __typename}}
+                                                                                                                                                      ^
+ [] []
+[2022-06-28T03:52:00.262388+00:00] report.ERROR: Cannot query field "availableNow" on type "Query".
+
+GraphQL (1:38)
+1: query getNowAvailble($userGroup:Int){availableNow(pageSize:10 currentPage:1 user_group:$userGroup){items{principle_name_custom principle_name net_weight_gr net_content_ml max_sale_qty msrp sku id name stock_status is_recommended high_margin best_seller is_new_arrival margin margin_percentage attributes{min_piece_per_order multiple_piece_per_order nb_items_case nb_items_pack __typename}only_x_left_in_stock saleable_qty sellers{sellerId sellerName sellerStockQty sellerStockStatus sellerRegularPrice sellerRegularPriceInclTax sellerFinalPrice sellerFinalPriceInclTax sellerQtyEanUnit sellerQtyEanKg sellerMinSellQty sellerOnlyXLeftInStock sellerMinThresholdQty sellerTierPrice{qty price __typename}__typename}brand brand_name categories{name id level url_key __typename}price_tiers{discount{amount_off percent_off discount_type __typename}quantity __typename}short_description{html __typename}offers{desc qty start_date end_date customer_group __typename}price_range{maximum_price{regular_price{value __typename}final_price{value __typename}__typename}minimum_price{regular_price{value __typename}final_price{value __typename}__typename}__typename}image{url __typename}thumbnail{url __typename}small_image{url __typename}media_gallery{url __typename}...on ConfigurableProduct{configurable_options{id label position use_default attribute_code values{value_index label swatch_data{value __typename}__typename}product_id __typename}variants{product{msrp id name sku brand brand_name saleable_qty attributes{min_piece_per_order multiple_piece_per_order nb_items_case nb_items_pack __typename}image{url __typename}small_image{url __typename}thumbnail{url __typename}media_gallery{url __typename}attribute_set_id ...on PhysicalProductInterface{weight __typename}price_range{maximum_price{regular_price{value __typename}final_price{value __typename}__typename}minimum_price{regular_price{value __typename}final_price{value __typename}__typename}__typename}__typename}attributes{label code value_index __typename}__typename}__typename}__typename}total_count __typename}}
+                                        ^
+ [] []
+[2022-06-28T03:52:00.342654+00:00] report.ERROR: Field "best_seller" is not defined by type ProductAttributeFilterInput.
+
+GraphQL (1:57)
+1: query getBestSeller($userGroup:String){products(filter:{best_seller:{eq:"1"}exclude_outofstock:{eq:"1"}user_group:{eq:$userGroup}}pageSize:20 currentPage:1){items{max_sale_qty msrp sku principle_name_custom principle_name net_weight_gr net_content_ml id name stock_status is_recommended high_margin best_seller is_new_arrival margin margin_percentage only_x_left_in_stock saleable_qty brand brand_name attributes{min_piece_per_order multiple_piece_per_order nb_items_case nb_items_pack nb_items_piece nb_items_sachet nb_items_shrink __typename}categories{name id level url_key __typename}price_tiers{discount{amount_off percent_off discount_type __typename}quantity __typename}short_description{html __typename}price_range{maximum_price{regular_price{value __typename}final_price{value __typename}__typename}minimum_price{regular_price{value __typename}final_price{value __typename}__typename}__typename}image{url __typename}thumbnail{url __typename}small_image{url __typename}media_gallery{url __typename}...on ConfigurableProduct{configurable_options{id label position use_default attribute_code values{value_index label swatch_data{value __typename}__typename}product_id __typename}variants{product{msrp id name sku brand brand_name saleable_qty image{url __typename}small_image{url __typename}thumbnail{url __typename}media_gallery{url __typename}attribute_set_id ...on PhysicalProductInterface{weight __typename}price_range{maximum_price{regular_price{value __typename}final_price{value __typename}__typename}minimum_price{regular_price{value __typename}final_price{value __typename}__typename}__typename}__typename}attributes{label code value_index __typename}__typename}__typename}__typename}total_count __typename}}
+                                                           ^
+ [] []
+[2022-06-28T03:52:00.557130+00:00] report.ERROR: Cannot query field "smartList" on type "Query".
+
+GraphQL (1:85)
+1: query smartList($filter:ProductAttributeFilterInput$sort:ProductAttributeSortInput){smartList(filter:$filter sort:$sort pageSize:20){total_count aggregations{attribute_code label options{label value __typename}__typename}requisition_id items{__typename id categories{id name level __typename}url_rewrites{url __typename}attributes{min_piece_per_order multiple_piece_per_order nb_items_case nb_items_pack nb_items_piece nb_items_sachet nb_items_shrink __typename}requisition_item_id requisition_selected_simple requisition_item_qty max_sale_qty msrp sku principle_name_custom principle_name net_weight_gr net_content_ml name stock_status is_recommended margin margin_percentage only_x_left_in_stock saleable_qty high_margin best_seller is_new_arrival trending special_price brand brand_name price_tiers{discount{amount_off percent_off discount_type __typename}quantity __typename}short_description{html __typename}price_range{maximum_price{regular_price{value __typename}final_price{value __typename}__typename}minimum_price{regular_price{value currency __typename}final_price{value currency __typename}__typename}__typename}image{url __typename}thumbnail{url __typename}small_image{url __typename}media_gallery{url __typename}sellers{sellerId sellerName sellerStockQty sellerStockStatus sellerRegularPrice sellerRegularPriceInclTax sellerFinalPrice sellerFinalPriceInclTax sellerQtyEanUnit sellerQtyEanKg sellerMinSellQty sellerOnlyXLeftInStock sellerMinThresholdQty sellerTierPrice{qty price __typename}__typename}}__typename}}
+                                                                                       ^
+ [] []
+[2022-06-28T03:52:00.605388+00:00] report.ERROR: Cannot query field "getShopByBrands" on type "Query".
+
+GraphQL (1:65)
+1: query getShopByBrands($customer_group_id:[Int]$seller_id:[Int]){getShopByBrands(onlyTopBrand:false pageSize:100 currentPage:1 customer_group_id:$customer_group_id seller_id:$seller_id){brand_id image_url name is_top_brand __typename}}
+                                                                   ^
+ [] []
+[2022-06-28T03:52:00.787750+00:00] report.ERROR: Cannot query field "getShopbyseller" on type "Query".
+
+GraphQL (1:2)
+1: {getShopbyseller(pageSize:100 currentPage:1){seller_id image_url is_top_seller title __typename}}
+    ^
+ [] []
+[2022-06-28T03:52:00.837736+00:00] report.ERROR: Cannot query field "getPastPurchaseProduct" on type "Query".
+
+GraphQL (1:46)
+1: query getPastPurchaseProduct($userGroup:Int){getPastPurchaseProduct(pageSize:10 currentPage:1 user_group:$userGroup){items{id sku principle_name_custom net_weight_gr principle_name name high_margin max_sale_qty msrp margin margin_percentage stock_status brand brand_name saleable_qty sellers{sellerId sellerName sellerStockQty sellerStockStatus sellerRegularPrice sellerRegularPriceInclTax sellerFinalPrice sellerFinalPriceInclTax sellerQtyEanUnit sellerQtyEanKg sellerMinSellQty sellerOnlyXLeftInStock sellerMinThresholdQty sellerTierPrice{qty price __typename}__typename}attributes{min_piece_per_order multiple_piece_per_order nb_items_case nb_items_pack nb_items_piece nb_items_sachet nb_items_shrink __typename}categories{name id level url_key __typename}image{url label __typename}small_image{url label __typename}thumbnail{url __typename}media_gallery{url __typename}price_tiers{discount{amount_off percent_off discount_type __typename}quantity __typename}price_range{maximum_price{regular_price{value currency __typename}final_price{value currency __typename}__typename}minimum_price{regular_price{value currency __typename}final_price{value currency __typename}__typename}__typename}...on ConfigurableProduct{configurable_options{id label position use_default attribute_code values{value_index label swatch_data{value __typename}__typename}product_id __typename}variants{product{attributes{min_piece_per_order multiple_piece_per_order nb_items_case nb_items_pack nb_items_piece nb_items_sachet nb_items_shrink __typename}msrp id name sku brand brand_name saleable_qty image{url __typename}small_image{url __typename}thumbnail{url __typename}media_gallery{url __typename}attribute_set_id ...on PhysicalProductInterface{weight __typename}price_range{maximum_price{regular_price{value __typename}final_price{value __typename}__typename}minimum_price{regular_price{value __typename}final_price{value __typename}__typename}__typename}__typename}attributes{label code value_index __typename}__typename}__typename}__typename}__typename}}
+                                                ^
+ [] []
+[2022-06-28T03:52:21.600971+00:00] report.ERROR: The current customer isn't authorized.
+
+GraphQL (2:3)
+1: {
+2:   customer {
+     ^
+3:     firstname
+ [] []
+[2022-06-28T03:52:21.735487+00:00] report.ERROR: The current customer isn't authorized.
+
+GraphQL (2:3)
+1: {
+2:   customer {
+     ^
+3:     firstname
+ [] []
+[2022-06-28T03:52:33.339078+00:00] report.ERROR: The current customer isn't authorized.
+
+GraphQL (2:3)
+1: {
+2:   customer {
+     ^
+3:     firstname
+ [] []
+[2022-06-28T03:52:33.339078+00:00] report.ERROR: The current customer isn't authorized.
+
+GraphQL (2:3)
+1: {
+2:   customer {
+     ^
+3:     firstname
+ [] []
+[2022-06-28T03:53:38.859144+00:00] report.ERROR: The current customer isn't authorized.
+
+GraphQL (2:3)
+1: {
+2:   customer {
+     ^
+3:     firstname
+ [] []
+[2022-06-28T03:53:38.867600+00:00] report.ERROR: The current customer isn't authorized.
+
+GraphQL (2:3)
+1: {
+2:   customer {
+     ^
+3:     firstname
+ [] []
+[2022-06-28T04:16:43.210217+00:00] report.ERROR: Cannot query field "IsLoyaltyEnabled" on type "StoreConfig".
+
+GraphQL (1:40)
+1: query fetchStoreConfigData{storeConfig{IsLoyaltyEnabled LoyaltyAgreementVersion LoyaltyConsetUpdatedOn isPolicyConsetEnabled isSmartListEnabled policyConsentAgreementVersion blackoutConsent{isEnable version startDate endDate title description __typename}IsOrderNoteEnabled __typename}}
+                                          ^
+ [] []
+[2022-06-28T04:17:22.000840+00:00] report.ERROR: Cannot query field "IsLoyaltyEnabled" on type "StoreConfig".
+
+GraphQL (1:40)
+1: query fetchStoreConfigData{storeConfig{IsLoyaltyEnabled LoyaltyAgreementVersion LoyaltyConsetUpdatedOn isPolicyConsetEnabled isSmartListEnabled policyConsentAgreementVersion blackoutConsent{isEnable version startDate endDate title description __typename}IsOrderNoteEnabled __typename}}
+                                          ^
+ [] []
+[2022-06-28T04:20:38.477575+00:00] report.ERROR: Cannot query field "IsLoyaltyEnabled" on type "StoreConfig".
+
+GraphQL (1:40)
+1: query fetchStoreConfigData{storeConfig{IsLoyaltyEnabled LoyaltyAgreementVersion LoyaltyConsetUpdatedOn isPolicyConsetEnabled isSmartListEnabled policyConsentAgreementVersion blackoutConsent{isEnable version startDate endDate title description __typename}IsOrderNoteEnabled __typename}}
+                                          ^
+ [] []
+[2022-06-28T04:22:12.835847+00:00] report.ERROR: Cannot query field "IsLoyaltyEnabled" on type "StoreConfig".
+
+GraphQL (1:40)
+1: query fetchStoreConfigData{storeConfig{IsLoyaltyEnabled LoyaltyAgreementVersion LoyaltyConsetUpdatedOn isPolicyConsetEnabled isSmartListEnabled policyConsentAgreementVersion blackoutConsent{isEnable version startDate endDate title description __typename}IsOrderNoteEnabled __typename}}
+                                          ^
+ [] []
+[2022-06-28T04:26:21.441340+00:00] report.ERROR: Cannot query field "IsLoyaltyEnabled" on type "StoreConfig".
+
+GraphQL (1:40)
+1: query fetchStoreConfigData{storeConfig{IsLoyaltyEnabled LoyaltyAgreementVersion LoyaltyConsetUpdatedOn isPolicyConsetEnabled isSmartListEnabled policyConsentAgreementVersion blackoutConsent{isEnable version startDate endDate title description __typename}IsOrderNoteEnabled __typename}}
+                                          ^
+ [] []
+[2022-06-28T04:27:07.614921+00:00] report.ERROR: The CMS block with the "home-banner-1" ID doesn't exist.
+
+GraphQL (1:77)
+1: query cmsBlocks($identifiers:[String]!){cmsBlocks(identifiers:$identifiers){items{identifier title content __typename}__typename}}
+                                                                               ^
+ [] []
+[2022-06-28T04:27:08.149978+00:00] report.CRITICAL: Magento\Framework\GraphQl\Exception\GraphQlInputException: Max query complexity should be 300 but got 383. in /var/www/html/magento/vendor/magento/framework/GraphQl/Query/QueryComplexityLimiter.php:103
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/framework/GraphQl/Query/QueryProcessor.php(72): Magento\Framework\GraphQl\Query\QueryComplexityLimiter->validateFieldCount()
+#1 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(195): Magento\Framework\GraphQl\Query\QueryProcessor->process()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#3 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#4 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(75): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#6 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#7 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#8 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#9 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#10 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#11 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#12 {main}
+
+Next Exception: Report ID: graph-ql-62ba831c248a0; Message: Max query complexity should be 300 but got 383. in /var/www/html/magento/vendor/magento/framework/GraphQl/Exception/ExceptionFormatter.php:64
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(199): Magento\Framework\GraphQl\Exception\ExceptionFormatter->create()
+#1 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#3 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(75): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#6 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#7 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#8 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#9 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#10 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#11 {main} [] []
+[2022-06-28T04:27:08.485466+00:00] report.ERROR: Cannot query field "custom_attribute" on type "Customer".
+
+GraphQL (1:27)
+1: query getDetails{customer{custom_attribute{attribute value __typename}addresses{firstname lastname street city region{region_code region __typename}postcode country_code telephone __typename}smart_onboarding company_details{entity_id company_name company_email isNewVersionForPolicyConsent legal_name vat_tax_id telephone status reseller_id comment street city country_id region region_id postcode telephone customer_group_id customer_group_uid sales_representative_id super_user_id reject_reason rejected_at district sub_district address_type created_at updated_at isShowBlackoutPolicyConsent __typename}document_details{id company_id document_url document_type document_category_id document_category_name document_type_id document_url document_reject_message status registration_number created_at __typename}firstname lastname suffix email whatsapp_opt_in join_request_status mobile_number user_id product_user_group_id default_seller_id seller_details{seller_id __typename}created_at outlet_loyalty_details{user_id opt_in isNewVersionForLoyalty currentSlab isLoyaltyEnabled loyaltyEnabledFrom __typename}__typename}}
+                             ^
+ [] []
+[2022-06-28T04:27:09.078274+00:00] report.CRITICAL: Magento\Framework\GraphQl\Exception\GraphQlInputException: Max query complexity should be 300 but got 383. in /var/www/html/magento/vendor/magento/framework/GraphQl/Query/QueryComplexityLimiter.php:103
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/framework/GraphQl/Query/QueryProcessor.php(72): Magento\Framework\GraphQl\Query\QueryComplexityLimiter->validateFieldCount()
+#1 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(195): Magento\Framework\GraphQl\Query\QueryProcessor->process()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#3 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#4 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(75): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#6 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#7 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#8 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#9 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#10 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#11 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#12 {main}
+
+Next Exception: Report ID: graph-ql-62ba831d13062; Message: Max query complexity should be 300 but got 383. in /var/www/html/magento/vendor/magento/framework/GraphQl/Exception/ExceptionFormatter.php:64
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(199): Magento\Framework\GraphQl\Exception\ExceptionFormatter->create()
+#1 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#3 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(75): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#6 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#7 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#8 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#9 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#10 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#11 {main} [] []
+[2022-06-28T04:27:10.146035+00:00] report.CRITICAL: Magento\Framework\GraphQl\Exception\GraphQlInputException: Max query complexity should be 300 but got 383. in /var/www/html/magento/vendor/magento/framework/GraphQl/Query/QueryComplexityLimiter.php:103
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/framework/GraphQl/Query/QueryProcessor.php(72): Magento\Framework\GraphQl\Query\QueryComplexityLimiter->validateFieldCount()
+#1 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(195): Magento\Framework\GraphQl\Query\QueryProcessor->process()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#3 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#4 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(75): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#6 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#7 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#8 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#9 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#10 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#11 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#12 {main}
+
+Next Exception: Report ID: graph-ql-62ba831e23927; Message: Max query complexity should be 300 but got 383. in /var/www/html/magento/vendor/magento/framework/GraphQl/Exception/ExceptionFormatter.php:64
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(199): Magento\Framework\GraphQl\Exception\ExceptionFormatter->create()
+#1 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#3 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(75): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#6 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#7 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#8 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#9 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#10 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#11 {main} [] []
+[2022-06-28T04:27:12.452874+00:00] report.CRITICAL: Magento\Framework\GraphQl\Exception\GraphQlInputException: Max query complexity should be 300 but got 383. in /var/www/html/magento/vendor/magento/framework/GraphQl/Query/QueryComplexityLimiter.php:103
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/framework/GraphQl/Query/QueryProcessor.php(72): Magento\Framework\GraphQl\Query\QueryComplexityLimiter->validateFieldCount()
+#1 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(195): Magento\Framework\GraphQl\Query\QueryProcessor->process()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#3 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#4 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(75): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#6 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#7 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#8 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#9 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#10 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#11 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#12 {main}
+
+Next Exception: Report ID: graph-ql-62ba83206e71d; Message: Max query complexity should be 300 but got 383. in /var/www/html/magento/vendor/magento/framework/GraphQl/Exception/ExceptionFormatter.php:64
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(199): Magento\Framework\GraphQl\Exception\ExceptionFormatter->create()
+#1 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#3 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(75): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#6 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#7 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#8 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#9 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#10 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#11 {main} [] []
+[2022-06-28T04:27:17.107112+00:00] report.CRITICAL: Magento\Framework\GraphQl\Exception\GraphQlInputException: Max query complexity should be 300 but got 383. in /var/www/html/magento/vendor/magento/framework/GraphQl/Query/QueryComplexityLimiter.php:103
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/framework/GraphQl/Query/QueryProcessor.php(72): Magento\Framework\GraphQl\Query\QueryComplexityLimiter->validateFieldCount()
+#1 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(195): Magento\Framework\GraphQl\Query\QueryProcessor->process()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#3 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#4 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(75): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#6 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#7 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#8 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#9 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#10 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#11 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#12 {main}
+
+Next Exception: Report ID: graph-ql-62ba83251a06f; Message: Max query complexity should be 300 but got 383. in /var/www/html/magento/vendor/magento/framework/GraphQl/Exception/ExceptionFormatter.php:64
+Stack trace:
+#0 /var/www/html/magento/vendor/magento/module-graph-ql/Controller/GraphQl.php(199): Magento\Framework\GraphQl\Exception\ExceptionFormatter->create()
+#1 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(58): Magento\GraphQl\Controller\GraphQl->dispatch()
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\GraphQl\Controller\GraphQl\Interceptor->___callParent()
+#3 /var/www/html/magento/vendor/magento/module-page-cache/Model/App/FrontController/BuiltinPlugin.php(75): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#4 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch()
+#5 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\GraphQl\Controller\GraphQl\Interceptor->Magento\Framework\Interception\{closure}()
+#6 /var/www/html/magento/generated/code/Magento/GraphQl/Controller/GraphQl/Interceptor.php(23): Magento\GraphQl\Controller\GraphQl\Interceptor->___callPlugins()
+#7 /var/www/html/magento/vendor/magento/framework/App/Http.php(116): Magento\GraphQl\Controller\GraphQl\Interceptor->dispatch()
+#8 /var/www/html/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#9 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#10 /var/www/html/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#11 {main} [] []
+[2022-06-28T04:39:02.048884+00:00] report.ERROR: Field "high_margin" is not defined by type ProductAttributeFilterInput.
+
+GraphQL (1:57)
+1: query getHighMargin($userGroup:String){products(filter:{high_margin:{eq:"1"}exclude_outofstock:{eq:"1"}user_group:{eq:$userGroup}}pageSize:20 currentPage:1){items{max_sale_qty msrp sku principle_name_custom principle_name net_weight_gr net_content_ml id name stock_status is_recommended high_margin best_seller is_new_arrival margin margin_percentage only_x_left_in_stock saleable_qty brand brand_name categories{name id level url_key __typename}attributes{min_piece_per_order multiple_piece_per_order nb_items_case nb_items_pack nb_items_piece nb_items_sachet nb_items_shrink __typename}price_tiers{discount{amount_off percent_off discount_type __typename}quantity __typename}short_description{html __typename}price_range{maximum_price{regular_price{value __typename}final_price{value __typename}__typename}minimum_price{regular_price{value __typename}final_price{value __typename}__typename}__typename}image{url __typename}thumbnail{url __typename}small_image{url __typename}media_gallery{url __typename}...on ConfigurableProduct{configurable_options{id label position use_default attribute_code values{value_index label swatch_data{value __typename}__typename}product_id __typename}variants{product{msrp id name sku brand brand_name saleable_qty image{url __typename}small_image{url __typename}thumbnail{url __typename}media_gallery{url __typename}attribute_set_id ...on PhysicalProductInterface{weight __typename}price_range{maximum_price{regular_price{value __typename}final_price{value __typename}__typename}minimum_price{regular_price{value __typename}final_price{value __typename}__typename}__typename}__typename}attributes{label code value_index __typename}__typename}__typename}__typename}total_count __typename}}
+                                                           ^
+ [] []
+[2022-06-28T04:39:02.054064+00:00] report.ERROR: Field "best_seller" is not defined by type ProductAttributeFilterInput.
+
+GraphQL (1:57)
+1: query getBestSeller($userGroup:String){products(filter:{best_seller:{eq:"1"}exclude_outofstock:{eq:"1"}user_group:{eq:$userGroup}}pageSize:20 currentPage:1){items{max_sale_qty msrp sku principle_name_custom principle_name net_weight_gr net_content_ml id name stock_status is_recommended high_margin best_seller is_new_arrival margin margin_percentage only_x_left_in_stock saleable_qty brand brand_name attributes{min_piece_per_order multiple_piece_per_order nb_items_case nb_items_pack nb_items_piece nb_items_sachet nb_items_shrink __typename}categories{name id level url_key __typename}price_tiers{discount{amount_off percent_off discount_type __typename}quantity __typename}short_description{html __typename}price_range{maximum_price{regular_price{value __typename}final_price{value __typename}__typename}minimum_price{regular_price{value __typename}final_price{value __typename}__typename}__typename}image{url __typename}thumbnail{url __typename}small_image{url __typename}media_gallery{url __typename}...on ConfigurableProduct{configurable_options{id label position use_default attribute_code values{value_index label swatch_data{value __typename}__typename}product_id __typename}variants{product{msrp id name sku brand brand_name saleable_qty image{url __typename}small_image{url __typename}thumbnail{url __typename}media_gallery{url __typename}attribute_set_id ...on PhysicalProductInterface{weight __typename}price_range{maximum_price{regular_price{value __typename}final_price{value __typename}__typename}minimum_price{regular_price{value __typename}final_price{value __typename}__typename}__typename}__typename}attributes{label code value_index __typename}__typename}__typename}__typename}total_count __typename}}
+                                                           ^
+ [] []
+[2022-06-28T04:39:03.069489+00:00] report.ERROR: Cannot query field "smartList" on type "Query".
+
+GraphQL (1:85)
+1: query smartList($filter:ProductAttributeFilterInput$sort:ProductAttributeSortInput){smartList(filter:$filter sort:$sort pageSize:20){total_count aggregations{attribute_code label options{label value __typename}__typename}requisition_id items{__typename id categories{id name level __typename}url_rewrites{url __typename}attributes{min_piece_per_order multiple_piece_per_order nb_items_case nb_items_pack nb_items_piece nb_items_sachet nb_items_shrink __typename}requisition_item_id requisition_selected_simple requisition_item_qty max_sale_qty msrp sku principle_name_custom principle_name net_weight_gr net_content_ml name stock_status is_recommended margin margin_percentage only_x_left_in_stock saleable_qty high_margin best_seller is_new_arrival trending special_price brand brand_name price_tiers{discount{amount_off percent_off discount_type __typename}quantity __typename}short_description{html __typename}price_range{maximum_price{regular_price{value __typename}final_price{value __typename}__typename}minimum_price{regular_price{value currency __typename}final_price{value currency __typename}__typename}__typename}image{url __typename}thumbnail{url __typename}small_image{url __typename}media_gallery{url __typename}sellers{sellerId sellerName sellerStockQty sellerStockStatus sellerRegularPrice sellerRegularPriceInclTax sellerFinalPrice sellerFinalPriceInclTax sellerQtyEanUnit sellerQtyEanKg sellerMinSellQty sellerOnlyXLeftInStock sellerMinThresholdQty sellerTierPrice{qty price __typename}__typename}}__typename}}
+                                                                                       ^
+ [] []
+[2022-06-28T04:39:05.299696+00:00] report.ERROR: Cannot query field "getBanners" on type "Query".
+
+GraphQL (1:148)
+1: query getSmallWidthBanner($show_on_section:String$show_on_id:String$customer_group_id:[Int]$seller_id:[Int]$banner_scope:String$width_type:String){getBanners(show_on_section:$show_on_section show_on_id:$show_on_id customer_group_id:$customer_group_id seller_id:$seller_id banner_scope:$banner_scope width_type:$width_type){width_type button_label imageUrl position subtitle title url_banner __typename}}
+                                                                                                                                                      ^
+ [] []
+[2022-06-28T04:39:11.777874+00:00] report.ERROR: Cannot query field "IsLoyaltyEnabled" on type "StoreConfig".
+
+GraphQL (1:40)
+1: query fetchStoreConfigData{storeConfig{IsLoyaltyEnabled LoyaltyAgreementVersion LoyaltyConsetUpdatedOn isPolicyConsetEnabled isSmartListEnabled policyConsentAgreementVersion blackoutConsent{isEnable version startDate endDate title description __typename}IsOrderNoteEnabled __typename}}
+                                          ^
+ [] []
+[2022-06-28T04:39:16.418281+00:00] report.ERROR: Unknown argument "sortByDate" on field "customerOrders" of type "Query".
+
+GraphQL (1:36)
+1: query getLiveOrders{customerOrders(sortByDate:"DESC" liveOrders:1){items{order_number id grand_total status state delivery_date created_at products{name sku qty row_total __typename}__typename}__typename}}
+                                      ^
+ [] []
+[2022-06-28T04:40:17.214127+00:00] report.ERROR: The request is allowed for logged in customer
+
+GraphQL (6:3)
+5: {
+6:   customerCart{
+     ^
+7:     id
+ [] []
+[2022-06-28T04:43:13.169258+00:00] report.ERROR: Cannot query field "IsLoyaltyEnabled" on type "StoreConfig".
+
+GraphQL (1:40)
+1: query fetchStoreConfigData{storeConfig{IsLoyaltyEnabled LoyaltyAgreementVersion LoyaltyConsetUpdatedOn isPolicyConsetEnabled isSmartListEnabled policyConsentAgreementVersion blackoutConsent{isEnable version startDate endDate title description __typename}IsOrderNoteEnabled __typename}}
+                                          ^
+ [] []
+[2022-06-28T04:51:29.325701+00:00] report.ERROR: Cannot query field "IsLoyaltyEnabled" on type "StoreConfig".
+
+GraphQL (1:40)
+1: query fetchStoreConfigData{storeConfig{IsLoyaltyEnabled LoyaltyAgreementVersion LoyaltyConsetUpdatedOn isPolicyConsetEnabled isSmartListEnabled policyConsentAgreementVersion blackoutConsent{isEnable version startDate endDate title description __typename}IsOrderNoteEnabled __typename}}
+                                          ^
+ [] []
+[2022-06-28T04:55:00.669863+00:00] report.ERROR: Cannot query field "IsLoyaltyEnabled" on type "StoreConfig".
+
+GraphQL (1:40)
+1: query fetchStoreConfigData{storeConfig{IsLoyaltyEnabled LoyaltyAgreementVersion LoyaltyConsetUpdatedOn isPolicyConsetEnabled isSmartListEnabled policyConsentAgreementVersion blackoutConsent{isEnable version startDate endDate title description __typename}IsOrderNoteEnabled __typename}}
+                                          ^
+ [] []
+[2022-06-28T04:55:01.450454+00:00] report.ERROR: The CMS block with the "home-banner-1" ID doesn't exist.
+
+GraphQL (1:77)
+1: query cmsBlocks($identifiers:[String]!){cmsBlocks(identifiers:$identifiers){items{identifier title content __typename}__typename}}
+                                                                               ^
+ [] []
+[2022-06-28T04:55:05.015068+00:00] report.ERROR: Field "high_margin" is not defined by type ProductAttributeFilterInput.
+
+GraphQL (1:57)
+1: query getHighMargin($userGroup:String){products(filter:{high_margin:{eq:"1"}exclude_outofstock:{eq:"1"}user_group:{eq:$userGroup}}pageSize:20 currentPage:1){items{max_sale_qty msrp sku principle_name_custom principle_name net_weight_gr net_content_ml id name stock_status is_recommended high_margin best_seller is_new_arrival margin margin_percentage only_x_left_in_stock saleable_qty brand brand_name categories{name id level url_key __typename}attributes{min_piece_per_order multiple_piece_per_order nb_items_case nb_items_pack nb_items_piece nb_items_sachet nb_items_shrink __typename}price_tiers{discount{amount_off percent_off discount_type __typename}quantity __typename}short_description{html __typename}price_range{maximum_price{regular_price{value __typename}final_price{value __typename}__typename}minimum_price{regular_price{value __typename}final_price{value __typename}__typename}__typename}image{url __typename}thumbnail{url __typename}small_image{url __typename}media_gallery{url __typename}...on ConfigurableProduct{configurable_options{id label position use_default attribute_code values{value_index label swatch_data{value __typename}__typename}product_id __typename}variants{product{msrp id name sku brand brand_name saleable_qty image{url __typename}small_image{url __typename}thumbnail{url __typename}media_gallery{url __typename}attribute_set_id ...on PhysicalProductInterface{weight __typename}price_range{maximum_price{regular_price{value __typename}final_price{value __typename}__typename}minimum_price{regular_price{value __typename}final_price{value __typename}__typename}__typename}__typename}attributes{label code value_index __typename}__typename}__typename}__typename}total_count __typename}}
+                                                           ^
+ [] []
+[2022-06-28T04:55:05.186057+00:00] report.ERROR: Cannot query field "getBanners" on type "Query".
+
+GraphQL (1:148)
+1: query getSmallWidthBanner($show_on_section:String$show_on_id:String$customer_group_id:[Int]$seller_id:[Int]$banner_scope:String$width_type:String){getBanners(show_on_section:$show_on_section show_on_id:$show_on_id customer_group_id:$customer_group_id seller_id:$seller_id banner_scope:$banner_scope width_type:$width_type){width_type button_label imageUrl position subtitle title url_banner __typename}}
+                                                                                                                                                      ^
+ [] []
+[2022-06-28T04:55:05.434428+00:00] report.ERROR: Field "best_seller" is not defined by type ProductAttributeFilterInput.
+
+GraphQL (1:57)
+1: query getBestSeller($userGroup:String){products(filter:{best_seller:{eq:"1"}exclude_outofstock:{eq:"1"}user_group:{eq:$userGroup}}pageSize:20 currentPage:1){items{max_sale_qty msrp sku principle_name_custom principle_name net_weight_gr net_content_ml id name stock_status is_recommended high_margin best_seller is_new_arrival margin margin_percentage only_x_left_in_stock saleable_qty brand brand_name attributes{min_piece_per_order multiple_piece_per_order nb_items_case nb_items_pack nb_items_piece nb_items_sachet nb_items_shrink __typename}categories{name id level url_key __typename}price_tiers{discount{amount_off percent_off discount_type __typename}quantity __typename}short_description{html __typename}price_range{maximum_price{regular_price{value __typename}final_price{value __typename}__typename}minimum_price{regular_price{value __typename}final_price{value __typename}__typename}__typename}image{url __typename}thumbnail{url __typename}small_image{url __typename}media_gallery{url __typename}...on ConfigurableProduct{configurable_options{id label position use_default attribute_code values{value_index label swatch_data{value __typename}__typename}product_id __typename}variants{product{msrp id name sku brand brand_name saleable_qty image{url __typename}small_image{url __typename}thumbnail{url __typename}media_gallery{url __typename}attribute_set_id ...on PhysicalProductInterface{weight __typename}price_range{maximum_price{regular_price{value __typename}final_price{value __typename}__typename}minimum_price{regular_price{value __typename}final_price{value __typename}__typename}__typename}__typename}attributes{label code value_index __typename}__typename}__typename}__typename}total_count __typename}}
+                                                           ^
+ [] []
+[2022-06-28T04:55:05.565612+00:00] report.ERROR: Cannot query field "smartList" on type "Query".
+
+GraphQL (1:85)
+1: query smartList($filter:ProductAttributeFilterInput$sort:ProductAttributeSortInput){smartList(filter:$filter sort:$sort pageSize:20){total_count aggregations{attribute_code label options{label value __typename}__typename}requisition_id items{__typename id categories{id name level __typename}url_rewrites{url __typename}attributes{min_piece_per_order multiple_piece_per_order nb_items_case nb_items_pack nb_items_piece nb_items_sachet nb_items_shrink __typename}requisition_item_id requisition_selected_simple requisition_item_qty max_sale_qty msrp sku principle_name_custom principle_name net_weight_gr net_content_ml name stock_status is_recommended margin margin_percentage only_x_left_in_stock saleable_qty high_margin best_seller is_new_arrival trending special_price brand brand_name price_tiers{discount{amount_off percent_off discount_type __typename}quantity __typename}short_description{html __typename}price_range{maximum_price{regular_price{value __typename}final_price{value __typename}__typename}minimum_price{regular_price{value currency __typename}final_price{value currency __typename}__typename}__typename}image{url __typename}thumbnail{url __typename}small_image{url __typename}media_gallery{url __typename}sellers{sellerId sellerName sellerStockQty sellerStockStatus sellerRegularPrice sellerRegularPriceInclTax sellerFinalPrice sellerFinalPriceInclTax sellerQtyEanUnit sellerQtyEanKg sellerMinSellQty sellerOnlyXLeftInStock sellerMinThresholdQty sellerTierPrice{qty price __typename}__typename}}__typename}}
+                                                                                       ^
+ [] []
+[2022-06-28T04:55:05.949953+00:00] report.ERROR: Cannot query field "getShopByBrands" on type "Query".
+
+GraphQL (1:65)
+1: query getShopByBrands($customer_group_id:[Int]$seller_id:[Int]){getShopByBrands(onlyTopBrand:false pageSize:100 currentPage:1 customer_group_id:$customer_group_id seller_id:$seller_id){brand_id image_url name is_top_brand __typename}}
+                                                                   ^
+ [] []
+[2022-06-28T04:55:05.999386+00:00] report.ERROR: Cannot query field "getShopbyseller" on type "Query".
+
+GraphQL (1:2)
+1: {getShopbyseller(pageSize:100 currentPage:1){seller_id image_url is_top_seller title __typename}}
+    ^
+ [] []
+[2022-06-28T04:55:22.263299+00:00] report.ERROR: The CMS block with the "home-banner-1" ID doesn't exist.
+
+GraphQL (1:77)
+1: query cmsBlocks($identifiers:[String]!){cmsBlocks(identifiers:$identifiers){items{identifier title content __typename}__typename}}
+                                                                               ^
+ [] []
+[2022-06-28T04:55:22.315910+00:00] report.ERROR: Cannot query field "custom_attribute" on type "Customer".
+
+GraphQL (1:27)
+1: query getDetails{customer{custom_attribute{attribute value __typename}addresses{firstname lastname street city region{region_code region __typename}postcode country_code telephone __typename}smart_onboarding company_details{entity_id company_name company_email isNewVersionForPolicyConsent legal_name vat_tax_id telephone status reseller_id comment street city country_id region region_id postcode telephone customer_group_id customer_group_uid sales_representative_id super_user_id reject_reason rejected_at district sub_district address_type created_at updated_at isShowBlackoutPolicyConsent __typename}document_details{id company_id document_url document_type document_category_id document_category_name document_type_id document_url document_reject_message status registration_number created_at __typename}firstname lastname suffix email whatsapp_opt_in join_request_status mobile_number user_id product_user_group_id default_seller_id seller_details{seller_id __typename}created_at outlet_loyalty_details{user_id opt_in isNewVersionForLoyalty currentSlab isLoyaltyEnabled loyaltyEnabledFrom __typename}__typename}}
+                             ^
+ [] []

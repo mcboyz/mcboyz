@@ -1,0 +1,506 @@
+## 2022-06-21 05:07:49
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `sales_order_status` WHERE `Non_unique` = 0
+AFF: 1
+TIME: 0.0002
+
+## 2022-06-21 05:07:49
+## 17810 ## QUERY
+SQL: SELECT `i_tables`.`ENGINE` AS `engine`, `i_tables`.`TABLE_COMMENT` AS `comment`, `i_tables`.`TABLE_COLLATION` AS `collation`, `charset_applicability`.`CHARACTER_SET_NAME` AS `charset` FROM `information_schema`.`TABLES` AS `i_tables`
+ INNER JOIN `information_schema`.`COLLATION_CHARACTER_SET_APPLICABILITY` AS `charset_applicability` ON i_tables.table_collation = charset_applicability.collation_name WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'sales_order_status_state')
+AFF: 1
+TIME: 0.0007
+
+## 2022-06-21 05:07:49
+## 17810 ## QUERY
+SQL: SELECT `COLUMNS`.`COLUMN_NAME` AS `name`, `COLUMNS`.`COLUMN_DEFAULT` AS `default`, `COLUMNS`.`DATA_TYPE` AS `type`, IF(IS_NULLABLE="YES", true, false) AS `nullable`, `COLUMNS`.`COLUMN_TYPE` AS `definition`, `COLUMNS`.`EXTRA` AS `extra`, IF(COLUMN_COMMENT="", NULL, COLUMN_COMMENT) AS `comment` FROM `information_schema`.`COLUMNS` WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'sales_order_status_state') ORDER BY `ORDINAL_POSITION` ASC
+
+AFF: 4
+TIME: 0.0006
+
+## 2022-06-21 05:07:49
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `sales_order_status_state` WHERE `Non_unique` = 1
+AFF: 0
+TIME: 0.0002
+
+## 2022-06-21 05:07:49
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `sales_order_status_state` WHERE `Non_unique` = 0
+AFF: 2
+TIME: 0.0002
+
+## 2022-06-21 05:07:49
+## 17810 ## QUERY
+SQL: SELECT `i_tables`.`ENGINE` AS `engine`, `i_tables`.`TABLE_COMMENT` AS `comment`, `i_tables`.`TABLE_COLLATION` AS `collation`, `charset_applicability`.`CHARACTER_SET_NAME` AS `charset` FROM `information_schema`.`TABLES` AS `i_tables`
+ INNER JOIN `information_schema`.`COLLATION_CHARACTER_SET_APPLICABILITY` AS `charset_applicability` ON i_tables.table_collation = charset_applicability.collation_name WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'sales_order_status_label')
+AFF: 1
+TIME: 0.0007
+
+## 2022-06-21 05:07:49
+## 17810 ## QUERY
+SQL: SELECT `COLUMNS`.`COLUMN_NAME` AS `name`, `COLUMNS`.`COLUMN_DEFAULT` AS `default`, `COLUMNS`.`DATA_TYPE` AS `type`, IF(IS_NULLABLE="YES", true, false) AS `nullable`, `COLUMNS`.`COLUMN_TYPE` AS `definition`, `COLUMNS`.`EXTRA` AS `extra`, IF(COLUMN_COMMENT="", NULL, COLUMN_COMMENT) AS `comment` FROM `information_schema`.`COLUMNS` WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'sales_order_status_label') ORDER BY `ORDINAL_POSITION` ASC
+
+AFF: 3
+TIME: 0.0006
+
+## 2022-06-21 05:07:49
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `sales_order_status_label` WHERE `Non_unique` = 1
+AFF: 1
+TIME: 0.0002
+
+## 2022-06-21 05:07:49
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `sales_order_status_label` WHERE `Non_unique` = 0
+AFF: 2
+TIME: 0.0002
+
+## 2022-06-21 05:07:49
+## 17810 ## QUERY
+SQL: SELECT `i_tables`.`ENGINE` AS `engine`, `i_tables`.`TABLE_COMMENT` AS `comment`, `i_tables`.`TABLE_COLLATION` AS `collation`, `charset_applicability`.`CHARACTER_SET_NAME` AS `charset` FROM `information_schema`.`TABLES` AS `i_tables`
+ INNER JOIN `information_schema`.`COLLATION_CHARACTER_SET_APPLICABILITY` AS `charset_applicability` ON i_tables.table_collation = charset_applicability.collation_name WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'sequence_product_bundle_option')
+AFF: 1
+TIME: 0.0007
+
+## 2022-06-21 05:07:49
+## 17810 ## QUERY
+SQL: SELECT `COLUMNS`.`COLUMN_NAME` AS `name`, `COLUMNS`.`COLUMN_DEFAULT` AS `default`, `COLUMNS`.`DATA_TYPE` AS `type`, IF(IS_NULLABLE="YES", true, false) AS `nullable`, `COLUMNS`.`COLUMN_TYPE` AS `definition`, `COLUMNS`.`EXTRA` AS `extra`, IF(COLUMN_COMMENT="", NULL, COLUMN_COMMENT) AS `comment` FROM `information_schema`.`COLUMNS` WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'sequence_product_bundle_option') ORDER BY `ORDINAL_POSITION` ASC
+
+AFF: 1
+TIME: 0.0006
+
+## 2022-06-21 05:07:49
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `sequence_product_bundle_option` WHERE `Non_unique` = 1
+AFF: 0
+TIME: 0.0002
+
+## 2022-06-21 05:07:49
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `sequence_product_bundle_option` WHERE `Non_unique` = 0
+AFF: 1
+TIME: 0.0002
+
+## 2022-06-21 05:07:49
+## 17810 ## QUERY
+SQL: SELECT `i_tables`.`ENGINE` AS `engine`, `i_tables`.`TABLE_COMMENT` AS `comment`, `i_tables`.`TABLE_COLLATION` AS `collation`, `charset_applicability`.`CHARACTER_SET_NAME` AS `charset` FROM `information_schema`.`TABLES` AS `i_tables`
+ INNER JOIN `information_schema`.`COLLATION_CHARACTER_SET_APPLICABILITY` AS `charset_applicability` ON i_tables.table_collation = charset_applicability.collation_name WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'catalog_product_bundle_option')
+AFF: 1
+TIME: 0.0007
+
+## 2022-06-21 05:07:49
+## 17810 ## QUERY
+SQL: SELECT `COLUMNS`.`COLUMN_NAME` AS `name`, `COLUMNS`.`COLUMN_DEFAULT` AS `default`, `COLUMNS`.`DATA_TYPE` AS `type`, IF(IS_NULLABLE="YES", true, false) AS `nullable`, `COLUMNS`.`COLUMN_TYPE` AS `definition`, `COLUMNS`.`EXTRA` AS `extra`, IF(COLUMN_COMMENT="", NULL, COLUMN_COMMENT) AS `comment` FROM `information_schema`.`COLUMNS` WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'catalog_product_bundle_option') ORDER BY `ORDINAL_POSITION` ASC
+
+AFF: 5
+TIME: 0.0006
+
+## 2022-06-21 05:07:49
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `catalog_product_bundle_option` WHERE `Non_unique` = 1
+AFF: 1
+TIME: 0.0002
+
+## 2022-06-21 05:07:49
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `catalog_product_bundle_option` WHERE `Non_unique` = 0
+AFF: 2
+TIME: 0.0002
+
+## 2022-06-21 05:07:49
+## 17810 ## QUERY
+SQL: SELECT `i_tables`.`ENGINE` AS `engine`, `i_tables`.`TABLE_COMMENT` AS `comment`, `i_tables`.`TABLE_COLLATION` AS `collation`, `charset_applicability`.`CHARACTER_SET_NAME` AS `charset` FROM `information_schema`.`TABLES` AS `i_tables`
+ INNER JOIN `information_schema`.`COLLATION_CHARACTER_SET_APPLICABILITY` AS `charset_applicability` ON i_tables.table_collation = charset_applicability.collation_name WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'catalog_product_bundle_option_value')
+AFF: 1
+TIME: 0.0007
+
+## 2022-06-21 05:07:49
+## 17810 ## QUERY
+SQL: SELECT `COLUMNS`.`COLUMN_NAME` AS `name`, `COLUMNS`.`COLUMN_DEFAULT` AS `default`, `COLUMNS`.`DATA_TYPE` AS `type`, IF(IS_NULLABLE="YES", true, false) AS `nullable`, `COLUMNS`.`COLUMN_TYPE` AS `definition`, `COLUMNS`.`EXTRA` AS `extra`, IF(COLUMN_COMMENT="", NULL, COLUMN_COMMENT) AS `comment` FROM `information_schema`.`COLUMNS` WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'catalog_product_bundle_option_value') ORDER BY `ORDINAL_POSITION` ASC
+
+AFF: 5
+TIME: 0.0006
+
+## 2022-06-21 05:07:49
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `catalog_product_bundle_option_value` WHERE `Non_unique` = 1
+AFF: 1
+TIME: 0.0002
+
+## 2022-06-21 05:07:49
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `catalog_product_bundle_option_value` WHERE `Non_unique` = 0
+AFF: 4
+TIME: 0.0002
+
+## 2022-06-21 05:07:49
+## 17810 ## QUERY
+SQL: SELECT `i_tables`.`ENGINE` AS `engine`, `i_tables`.`TABLE_COMMENT` AS `comment`, `i_tables`.`TABLE_COLLATION` AS `collation`, `charset_applicability`.`CHARACTER_SET_NAME` AS `charset` FROM `information_schema`.`TABLES` AS `i_tables`
+ INNER JOIN `information_schema`.`COLLATION_CHARACTER_SET_APPLICABILITY` AS `charset_applicability` ON i_tables.table_collation = charset_applicability.collation_name WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'sequence_product_bundle_selection')
+AFF: 1
+TIME: 0.0007
+
+## 2022-06-21 05:07:49
+## 17810 ## QUERY
+SQL: SELECT `COLUMNS`.`COLUMN_NAME` AS `name`, `COLUMNS`.`COLUMN_DEFAULT` AS `default`, `COLUMNS`.`DATA_TYPE` AS `type`, IF(IS_NULLABLE="YES", true, false) AS `nullable`, `COLUMNS`.`COLUMN_TYPE` AS `definition`, `COLUMNS`.`EXTRA` AS `extra`, IF(COLUMN_COMMENT="", NULL, COLUMN_COMMENT) AS `comment` FROM `information_schema`.`COLUMNS` WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'sequence_product_bundle_selection') ORDER BY `ORDINAL_POSITION` ASC
+
+AFF: 1
+TIME: 0.0006
+
+## 2022-06-21 05:07:49
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `sequence_product_bundle_selection` WHERE `Non_unique` = 1
+AFF: 0
+TIME: 0.0002
+
+## 2022-06-21 05:07:49
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `sequence_product_bundle_selection` WHERE `Non_unique` = 0
+AFF: 1
+TIME: 0.0002
+
+## 2022-06-21 05:07:49
+## 17810 ## QUERY
+SQL: SELECT `i_tables`.`ENGINE` AS `engine`, `i_tables`.`TABLE_COMMENT` AS `comment`, `i_tables`.`TABLE_COLLATION` AS `collation`, `charset_applicability`.`CHARACTER_SET_NAME` AS `charset` FROM `information_schema`.`TABLES` AS `i_tables`
+ INNER JOIN `information_schema`.`COLLATION_CHARACTER_SET_APPLICABILITY` AS `charset_applicability` ON i_tables.table_collation = charset_applicability.collation_name WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'catalog_product_bundle_selection')
+AFF: 1
+TIME: 0.0007
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SELECT `COLUMNS`.`COLUMN_NAME` AS `name`, `COLUMNS`.`COLUMN_DEFAULT` AS `default`, `COLUMNS`.`DATA_TYPE` AS `type`, IF(IS_NULLABLE="YES", true, false) AS `nullable`, `COLUMNS`.`COLUMN_TYPE` AS `definition`, `COLUMNS`.`EXTRA` AS `extra`, IF(COLUMN_COMMENT="", NULL, COLUMN_COMMENT) AS `comment` FROM `information_schema`.`COLUMNS` WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'catalog_product_bundle_selection') ORDER BY `ORDINAL_POSITION` ASC
+
+AFF: 10
+TIME: 0.0007
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `catalog_product_bundle_selection` WHERE `Non_unique` = 1
+AFF: 3
+TIME: 0.0002
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `catalog_product_bundle_selection` WHERE `Non_unique` = 0
+AFF: 2
+TIME: 0.0002
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SELECT `i_tables`.`ENGINE` AS `engine`, `i_tables`.`TABLE_COMMENT` AS `comment`, `i_tables`.`TABLE_COLLATION` AS `collation`, `charset_applicability`.`CHARACTER_SET_NAME` AS `charset` FROM `information_schema`.`TABLES` AS `i_tables`
+ INNER JOIN `information_schema`.`COLLATION_CHARACTER_SET_APPLICABILITY` AS `charset_applicability` ON i_tables.table_collation = charset_applicability.collation_name WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'catalog_product_bundle_selection_price')
+AFF: 1
+TIME: 0.0008
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SELECT `COLUMNS`.`COLUMN_NAME` AS `name`, `COLUMNS`.`COLUMN_DEFAULT` AS `default`, `COLUMNS`.`DATA_TYPE` AS `type`, IF(IS_NULLABLE="YES", true, false) AS `nullable`, `COLUMNS`.`COLUMN_TYPE` AS `definition`, `COLUMNS`.`EXTRA` AS `extra`, IF(COLUMN_COMMENT="", NULL, COLUMN_COMMENT) AS `comment` FROM `information_schema`.`COLUMNS` WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'catalog_product_bundle_selection_price') ORDER BY `ORDINAL_POSITION` ASC
+
+AFF: 5
+TIME: 0.0006
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `catalog_product_bundle_selection_price` WHERE `Non_unique` = 1
+AFF: 2
+TIME: 0.0002
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `catalog_product_bundle_selection_price` WHERE `Non_unique` = 0
+AFF: 3
+TIME: 0.0003
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SELECT `i_tables`.`ENGINE` AS `engine`, `i_tables`.`TABLE_COMMENT` AS `comment`, `i_tables`.`TABLE_COLLATION` AS `collation`, `charset_applicability`.`CHARACTER_SET_NAME` AS `charset` FROM `information_schema`.`TABLES` AS `i_tables`
+ INNER JOIN `information_schema`.`COLLATION_CHARACTER_SET_APPLICABILITY` AS `charset_applicability` ON i_tables.table_collation = charset_applicability.collation_name WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'catalog_product_bundle_price_index')
+AFF: 1
+TIME: 0.0007
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SELECT `COLUMNS`.`COLUMN_NAME` AS `name`, `COLUMNS`.`COLUMN_DEFAULT` AS `default`, `COLUMNS`.`DATA_TYPE` AS `type`, IF(IS_NULLABLE="YES", true, false) AS `nullable`, `COLUMNS`.`COLUMN_TYPE` AS `definition`, `COLUMNS`.`EXTRA` AS `extra`, IF(COLUMN_COMMENT="", NULL, COLUMN_COMMENT) AS `comment` FROM `information_schema`.`COLUMNS` WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'catalog_product_bundle_price_index') ORDER BY `ORDINAL_POSITION` ASC
+
+AFF: 5
+TIME: 0.0006
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `catalog_product_bundle_price_index` WHERE `Non_unique` = 1
+AFF: 2
+TIME: 0.0002
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `catalog_product_bundle_price_index` WHERE `Non_unique` = 0
+AFF: 3
+TIME: 0.0002
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SELECT `i_tables`.`ENGINE` AS `engine`, `i_tables`.`TABLE_COMMENT` AS `comment`, `i_tables`.`TABLE_COLLATION` AS `collation`, `charset_applicability`.`CHARACTER_SET_NAME` AS `charset` FROM `information_schema`.`TABLES` AS `i_tables`
+ INNER JOIN `information_schema`.`COLLATION_CHARACTER_SET_APPLICABILITY` AS `charset_applicability` ON i_tables.table_collation = charset_applicability.collation_name WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'catalog_product_bundle_stock_index')
+AFF: 1
+TIME: 0.0007
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SELECT `COLUMNS`.`COLUMN_NAME` AS `name`, `COLUMNS`.`COLUMN_DEFAULT` AS `default`, `COLUMNS`.`DATA_TYPE` AS `type`, IF(IS_NULLABLE="YES", true, false) AS `nullable`, `COLUMNS`.`COLUMN_TYPE` AS `definition`, `COLUMNS`.`EXTRA` AS `extra`, IF(COLUMN_COMMENT="", NULL, COLUMN_COMMENT) AS `comment` FROM `information_schema`.`COLUMNS` WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'catalog_product_bundle_stock_index') ORDER BY `ORDINAL_POSITION` ASC
+
+AFF: 5
+TIME: 0.0006
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `catalog_product_bundle_stock_index` WHERE `Non_unique` = 1
+AFF: 0
+TIME: 0.0002
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `catalog_product_bundle_stock_index` WHERE `Non_unique` = 0
+AFF: 4
+TIME: 0.0002
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SELECT `i_tables`.`ENGINE` AS `engine`, `i_tables`.`TABLE_COMMENT` AS `comment`, `i_tables`.`TABLE_COLLATION` AS `collation`, `charset_applicability`.`CHARACTER_SET_NAME` AS `charset` FROM `information_schema`.`TABLES` AS `i_tables`
+ INNER JOIN `information_schema`.`COLLATION_CHARACTER_SET_APPLICABILITY` AS `charset_applicability` ON i_tables.table_collation = charset_applicability.collation_name WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'catalog_product_index_price_bundle_idx')
+AFF: 1
+TIME: 0.0007
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SELECT `COLUMNS`.`COLUMN_NAME` AS `name`, `COLUMNS`.`COLUMN_DEFAULT` AS `default`, `COLUMNS`.`DATA_TYPE` AS `type`, IF(IS_NULLABLE="YES", true, false) AS `nullable`, `COLUMNS`.`COLUMN_TYPE` AS `definition`, `COLUMNS`.`EXTRA` AS `extra`, IF(COLUMN_COMMENT="", NULL, COLUMN_COMMENT) AS `comment` FROM `information_schema`.`COLUMNS` WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'catalog_product_index_price_bundle_idx') ORDER BY `ORDINAL_POSITION` ASC
+
+AFF: 13
+TIME: 0.0007
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `catalog_product_index_price_bundle_idx` WHERE `Non_unique` = 1
+AFF: 0
+TIME: 0.0002
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `catalog_product_index_price_bundle_idx` WHERE `Non_unique` = 0
+AFF: 3
+TIME: 0.0003
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SELECT `i_tables`.`ENGINE` AS `engine`, `i_tables`.`TABLE_COMMENT` AS `comment`, `i_tables`.`TABLE_COLLATION` AS `collation`, `charset_applicability`.`CHARACTER_SET_NAME` AS `charset` FROM `information_schema`.`TABLES` AS `i_tables`
+ INNER JOIN `information_schema`.`COLLATION_CHARACTER_SET_APPLICABILITY` AS `charset_applicability` ON i_tables.table_collation = charset_applicability.collation_name WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'catalog_product_index_price_bundle_tmp')
+AFF: 1
+TIME: 0.0007
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SELECT `COLUMNS`.`COLUMN_NAME` AS `name`, `COLUMNS`.`COLUMN_DEFAULT` AS `default`, `COLUMNS`.`DATA_TYPE` AS `type`, IF(IS_NULLABLE="YES", true, false) AS `nullable`, `COLUMNS`.`COLUMN_TYPE` AS `definition`, `COLUMNS`.`EXTRA` AS `extra`, IF(COLUMN_COMMENT="", NULL, COLUMN_COMMENT) AS `comment` FROM `information_schema`.`COLUMNS` WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'catalog_product_index_price_bundle_tmp') ORDER BY `ORDINAL_POSITION` ASC
+
+AFF: 13
+TIME: 0.0007
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `catalog_product_index_price_bundle_tmp` WHERE `Non_unique` = 1
+AFF: 0
+TIME: 0.0002
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `catalog_product_index_price_bundle_tmp` WHERE `Non_unique` = 0
+AFF: 3
+TIME: 0.0002
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SELECT `i_tables`.`ENGINE` AS `engine`, `i_tables`.`TABLE_COMMENT` AS `comment`, `i_tables`.`TABLE_COLLATION` AS `collation`, `charset_applicability`.`CHARACTER_SET_NAME` AS `charset` FROM `information_schema`.`TABLES` AS `i_tables`
+ INNER JOIN `information_schema`.`COLLATION_CHARACTER_SET_APPLICABILITY` AS `charset_applicability` ON i_tables.table_collation = charset_applicability.collation_name WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'catalog_product_index_price_bundle_sel_idx')
+AFF: 1
+TIME: 0.0007
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SELECT `COLUMNS`.`COLUMN_NAME` AS `name`, `COLUMNS`.`COLUMN_DEFAULT` AS `default`, `COLUMNS`.`DATA_TYPE` AS `type`, IF(IS_NULLABLE="YES", true, false) AS `nullable`, `COLUMNS`.`COLUMN_TYPE` AS `definition`, `COLUMNS`.`EXTRA` AS `extra`, IF(COLUMN_COMMENT="", NULL, COLUMN_COMMENT) AS `comment` FROM `information_schema`.`COLUMNS` WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'catalog_product_index_price_bundle_sel_idx') ORDER BY `ORDINAL_POSITION` ASC
+
+AFF: 9
+TIME: 0.0006
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `catalog_product_index_price_bundle_sel_idx` WHERE `Non_unique` = 1
+AFF: 0
+TIME: 0.0002
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `catalog_product_index_price_bundle_sel_idx` WHERE `Non_unique` = 0
+AFF: 5
+TIME: 0.0002
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SELECT `i_tables`.`ENGINE` AS `engine`, `i_tables`.`TABLE_COMMENT` AS `comment`, `i_tables`.`TABLE_COLLATION` AS `collation`, `charset_applicability`.`CHARACTER_SET_NAME` AS `charset` FROM `information_schema`.`TABLES` AS `i_tables`
+ INNER JOIN `information_schema`.`COLLATION_CHARACTER_SET_APPLICABILITY` AS `charset_applicability` ON i_tables.table_collation = charset_applicability.collation_name WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'catalog_product_index_price_bundle_sel_tmp')
+AFF: 1
+TIME: 0.0007
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SELECT `COLUMNS`.`COLUMN_NAME` AS `name`, `COLUMNS`.`COLUMN_DEFAULT` AS `default`, `COLUMNS`.`DATA_TYPE` AS `type`, IF(IS_NULLABLE="YES", true, false) AS `nullable`, `COLUMNS`.`COLUMN_TYPE` AS `definition`, `COLUMNS`.`EXTRA` AS `extra`, IF(COLUMN_COMMENT="", NULL, COLUMN_COMMENT) AS `comment` FROM `information_schema`.`COLUMNS` WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'catalog_product_index_price_bundle_sel_tmp') ORDER BY `ORDINAL_POSITION` ASC
+
+AFF: 9
+TIME: 0.0006
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `catalog_product_index_price_bundle_sel_tmp` WHERE `Non_unique` = 1
+AFF: 0
+TIME: 0.0002
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `catalog_product_index_price_bundle_sel_tmp` WHERE `Non_unique` = 0
+AFF: 5
+TIME: 0.0002
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SELECT `i_tables`.`ENGINE` AS `engine`, `i_tables`.`TABLE_COMMENT` AS `comment`, `i_tables`.`TABLE_COLLATION` AS `collation`, `charset_applicability`.`CHARACTER_SET_NAME` AS `charset` FROM `information_schema`.`TABLES` AS `i_tables`
+ INNER JOIN `information_schema`.`COLLATION_CHARACTER_SET_APPLICABILITY` AS `charset_applicability` ON i_tables.table_collation = charset_applicability.collation_name WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'catalog_product_index_price_bundle_opt_idx')
+AFF: 1
+TIME: 0.0007
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SELECT `COLUMNS`.`COLUMN_NAME` AS `name`, `COLUMNS`.`COLUMN_DEFAULT` AS `default`, `COLUMNS`.`DATA_TYPE` AS `type`, IF(IS_NULLABLE="YES", true, false) AS `nullable`, `COLUMNS`.`COLUMN_TYPE` AS `definition`, `COLUMNS`.`EXTRA` AS `extra`, IF(COLUMN_COMMENT="", NULL, COLUMN_COMMENT) AS `comment` FROM `information_schema`.`COLUMNS` WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'catalog_product_index_price_bundle_opt_idx') ORDER BY `ORDINAL_POSITION` ASC
+
+AFF: 9
+TIME: 0.0007
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `catalog_product_index_price_bundle_opt_idx` WHERE `Non_unique` = 1
+AFF: 0
+TIME: 0.0002
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `catalog_product_index_price_bundle_opt_idx` WHERE `Non_unique` = 0
+AFF: 4
+TIME: 0.0003
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SELECT `i_tables`.`ENGINE` AS `engine`, `i_tables`.`TABLE_COMMENT` AS `comment`, `i_tables`.`TABLE_COLLATION` AS `collation`, `charset_applicability`.`CHARACTER_SET_NAME` AS `charset` FROM `information_schema`.`TABLES` AS `i_tables`
+ INNER JOIN `information_schema`.`COLLATION_CHARACTER_SET_APPLICABILITY` AS `charset_applicability` ON i_tables.table_collation = charset_applicability.collation_name WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'catalog_product_index_price_bundle_opt_tmp')
+AFF: 1
+TIME: 0.0008
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SELECT `COLUMNS`.`COLUMN_NAME` AS `name`, `COLUMNS`.`COLUMN_DEFAULT` AS `default`, `COLUMNS`.`DATA_TYPE` AS `type`, IF(IS_NULLABLE="YES", true, false) AS `nullable`, `COLUMNS`.`COLUMN_TYPE` AS `definition`, `COLUMNS`.`EXTRA` AS `extra`, IF(COLUMN_COMMENT="", NULL, COLUMN_COMMENT) AS `comment` FROM `information_schema`.`COLUMNS` WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'catalog_product_index_price_bundle_opt_tmp') ORDER BY `ORDINAL_POSITION` ASC
+
+AFF: 9
+TIME: 0.0006
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `catalog_product_index_price_bundle_opt_tmp` WHERE `Non_unique` = 1
+AFF: 0
+TIME: 0.0002
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `catalog_product_index_price_bundle_opt_tmp` WHERE `Non_unique` = 0
+AFF: 4
+TIME: 0.0002
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SELECT `i_tables`.`ENGINE` AS `engine`, `i_tables`.`TABLE_COMMENT` AS `comment`, `i_tables`.`TABLE_COLLATION` AS `collation`, `charset_applicability`.`CHARACTER_SET_NAME` AS `charset` FROM `information_schema`.`TABLES` AS `i_tables`
+ INNER JOIN `information_schema`.`COLLATION_CHARACTER_SET_APPLICABILITY` AS `charset_applicability` ON i_tables.table_collation = charset_applicability.collation_name WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'cataloginventory_stock')
+AFF: 1
+TIME: 0.0007
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SELECT `COLUMNS`.`COLUMN_NAME` AS `name`, `COLUMNS`.`COLUMN_DEFAULT` AS `default`, `COLUMNS`.`DATA_TYPE` AS `type`, IF(IS_NULLABLE="YES", true, false) AS `nullable`, `COLUMNS`.`COLUMN_TYPE` AS `definition`, `COLUMNS`.`EXTRA` AS `extra`, IF(COLUMN_COMMENT="", NULL, COLUMN_COMMENT) AS `comment` FROM `information_schema`.`COLUMNS` WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'cataloginventory_stock') ORDER BY `ORDINAL_POSITION` ASC
+
+AFF: 3
+TIME: 0.0006
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `cataloginventory_stock` WHERE `Non_unique` = 1
+AFF: 1
+TIME: 0.0002
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `cataloginventory_stock` WHERE `Non_unique` = 0
+AFF: 1
+TIME: 0.0002
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SELECT `i_tables`.`ENGINE` AS `engine`, `i_tables`.`TABLE_COMMENT` AS `comment`, `i_tables`.`TABLE_COLLATION` AS `collation`, `charset_applicability`.`CHARACTER_SET_NAME` AS `charset` FROM `information_schema`.`TABLES` AS `i_tables`
+ INNER JOIN `information_schema`.`COLLATION_CHARACTER_SET_APPLICABILITY` AS `charset_applicability` ON i_tables.table_collation = charset_applicability.collation_name WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'cataloginventory_stock_item')
+AFF: 1
+TIME: 0.0007
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SELECT `COLUMNS`.`COLUMN_NAME` AS `name`, `COLUMNS`.`COLUMN_DEFAULT` AS `default`, `COLUMNS`.`DATA_TYPE` AS `type`, IF(IS_NULLABLE="YES", true, false) AS `nullable`, `COLUMNS`.`COLUMN_TYPE` AS `definition`, `COLUMNS`.`EXTRA` AS `extra`, IF(COLUMN_COMMENT="", NULL, COLUMN_COMMENT) AS `comment` FROM `information_schema`.`COLUMNS` WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'cataloginventory_stock_item') ORDER BY `ORDINAL_POSITION` ASC
+
+AFF: 28
+TIME: 0.0007
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `cataloginventory_stock_item` WHERE `Non_unique` = 1
+AFF: 4
+TIME: 0.0003
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `cataloginventory_stock_item` WHERE `Non_unique` = 0
+AFF: 3
+TIME: 0.0002
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SELECT `i_tables`.`ENGINE` AS `engine`, `i_tables`.`TABLE_COMMENT` AS `comment`, `i_tables`.`TABLE_COLLATION` AS `collation`, `charset_applicability`.`CHARACTER_SET_NAME` AS `charset` FROM `information_schema`.`TABLES` AS `i_tables`
+ INNER JOIN `information_schema`.`COLLATION_CHARACTER_SET_APPLICABILITY` AS `charset_applicability` ON i_tables.table_collation = charset_applicability.collation_name WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'requisition_list')
+AFF: 1
+TIME: 0.0008
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SELECT `COLUMNS`.`COLUMN_NAME` AS `name`, `COLUMNS`.`COLUMN_DEFAULT` AS `default`, `COLUMNS`.`DATA_TYPE` AS `type`, IF(IS_NULLABLE="YES", true, false) AS `nullable`, `COLUMNS`.`COLUMN_TYPE` AS `definition`, `COLUMNS`.`EXTRA` AS `extra`, IF(COLUMN_COMMENT="", NULL, COLUMN_COMMENT) AS `comment` FROM `information_schema`.`COLUMNS` WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'requisition_list') ORDER BY `ORDINAL_POSITION` ASC
+
+AFF: 5
+TIME: 0.0006
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `requisition_list` WHERE `Non_unique` = 1
+AFF: 1
+TIME: 0.0002
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SHOW INDEXES FROM `requisition_list` WHERE `Non_unique` = 0
+AFF: 1
+TIME: 0.0002
+
+## 2022-06-21 05:07:50
+## 17810 ## QUERY
+SQL: SELECT `i_tables`.`ENGINE` AS `engine`, `i_tables`.`TABLE_COMMENT` AS `comment`, `i_tables`.`TABLE_COLLATION` AS `collation`, `charset_applicability`.`CHARACTER_SET_NAME` AS `charset` FROM `information_schema`.`TABLES` AS `i_tables`
+ INNER JOIN `information_schema`.`COLLATION_CHARACTER_SET_APPLICABILITY` AS `charset_applicability` ON i_tables.table_collation = charset_applicability.collation_name WHERE (TABLE_SCHEMA = 'magento_db') AND (TABLE_NAME = 'cataloginventory_stock_status_idx')
+AFF: 1
+TIME: 0.0007
